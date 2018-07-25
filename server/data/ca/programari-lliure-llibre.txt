@@ -1,940 +1,235 @@
-Capítol 1 - Visió històrica del programari lliure La importància del programari 
-La transició que avui dia estem vivint, cap a una societat del coneixement, ha modificat profundament les relacions entre les persones, empreses i governs: les empreses utilitzen la Xarxa per relacionar-se amb clients i proveïdors, fan servir eines de gestió del coneixement per ser més eficients, els governs milloren llur presència a Internet i els serveis als ciutadans mitjançant la Xarxa, els usuaris n'utilitzen les eines per millorar les seves relacions personals, etc.
-Anem, sense cap aturador, cap a una societat altament interconnectada l'eix fonamental de la qual és la informació.
-Cada cop més, el programari és el gran intermediari entre la informació i la intel·ligència humana.
-De la mateixa manera que ens preocupa la llibertat d'accedir a la informació, i si existeix o no censura, ens ha de preocupar amb la mateixa intensitat qui controla aquest intermediari i quines garanties tenim de la seva transparència i fiabilitat.
-El programari és un programa o un conjunt de programes informàtics que fan una tasca determinada.
-Ho és el processador de textos que utilitzem, el controlador d'enregistrament dels nostres espais televisius favorits, o les aplicacions que fan que un telèfon mòbil funcioni.
-El programari està format per un conjunt d'instruccions que un ordinador executa per realitzar una funció específica.
-Normalment, els programadors escriuen en un llenguatge que els humans podem entendre i que, posteriorment, és traduït a seqüències d'uns i zeros, que és l'únic idioma que les màquines entenen.
-Aquest conjunt d'ordres, escrit en el llenguatge amb què els humans treballem, s'anomena codi font.
-Sense accés al codi solament podem utilitzar el programa; no podem veure com està fet ni introduir-hi millores.
-Un símil molt utilitzat és el de la recepta de cuina, en què el codi font serien les instruccions que permeten confeccionar un plat: sense la recepta només podem degustar el plat, però no sabem si, en afegir-hi alguna cosa, el que farem és empitjorar-lo, atès que en desconeixem la composició i les proporcions.
-En aquest sentit, el codi font juga un paper fonamental en la manera en què entenem les llibertats del programari.
-Per entendre la importància del programari podríem posar diversos exemples.
-A finals dels anys 90 vam poder assabentar-nos, arreu del món, de la preocupació d'empreses i governs per les repercussions que podria tenir l'anomenat "efecte 2000".
-Aquest famós error informàtic es produïa pel fet que molts programes emmagatzemaven la part de la data corresponent a l'any utilitzant solament dos dígits, de manera que, després de l'any 99 (el 1999), es passava a l'any 00 (any 2000? O any 1900?), la qual cosa causava tota mena d'errors en el càlcul de períodes de temps.
-Els ordinadors de companyies elèctriques, centrals nuclears, sistemes de control d'aviació, bancs i, en general, tot el programari d'ús quotidià, es van haver de revisar.
-Finalment, algunes aplicacions es van corregir i d'altres ja funcionaven correctament.
-No vam haver de lamentar cap catàstrofe, però hi ha va haver milers de prediccions apocalíptiques sobre les possible conseqüències que aquest error podria tenir.
-I així hagués estat si no s'hagués corregit a temps. 
-Quan els enginyers de programari ens trobem amb un programa que no dóna accés al seu codi font -és a dir, que no és lliure- veiem que no el podem entendre, i, per tant, que no el podríem arreglar encara que hi haguéssim trobat un error i en coneguéssim la solució.
-És a dir, que, encara que com a professionals en tinguem el remei, ens veiem impossibilitats per aplicar-lo.
-El programari té un paper molt destacat en la societat, i és important garantir mètodes transparents en les seves diferents fases de producció i explotació.
-El programari lliure, en donar accés al seu codi, és l'únic que pot garantir aquesta transparència.
-Durant els anys 60, els sistemes informàtics mitjans es van popularitzar en algunes universitats.
-Encara eren molt cars, i es destinaven bàsicament a usos científics.
-Uns dels centres d'investigació més importants d'aquella època era el Massachusetts Institute of Technology, conegut popularment per la seva sigla MIT , on es duien a terme destacats projectes d'investigació.
-En aquells temps, els sistemes informàtics eren en mode de text i les interfícies gràfiques encara no existien.
-De fet, ni tan sols existien els estudis d'Informàtica com a disciplina.
-Al voltant dels centres de càlcul es van anar formant grups d'experts que eren capaços de portar aquestes màquines fins a límits insospitats i que eren, més que qualsevol altra cosa, entusiastes de la tecnologia.
-Aquests persones s'anomenaren hackers, en el sentit que eren capaços de trobar solucions enginyoses a problemes complexos.
-Malauradament, anys més tard aquest paraula es va començar a utilitzar per referir-se als intrusos informàtics que robaven dades o a programadors que escrivien virus, a qui realment cal anomenar crackers.
-Durant els anys 60 i part dels 70 era habitual distribuir les aplicacions juntament amb el seu codi font.
-D'aquesta manera tothom podia participar en el procés de millora del programari, intercanviar trucs i compartir un esperit d'ajuda entre usuaris que ha quedat reflectit en els missatges que circulaven en aquell temps en xarxes com ara UUNET o Fidonet.
-Els hackerstenen el seu propi codi de conducta. Per a ells és fonamental garantir a tothom l'accés a la informació i als recursos informàtics.
-Richard Stallman , per exemple, es va sentir especialment ofès  quan al seu laboratori d'investigació, al MIT, es van començar a utilitzar contrasenyes per tal d'accedir als sistemes informàtics.
-Stallman va proposar als usuaris que utilitzessin la tecla de retorn com a contrasenya, que era l'equivalent a no utilitzar-la.
-Finalment, les contrasenyes es van establir, i els usuaris, que fins aleshores havien compartit la informació en aquell laboratori, ja no ho van poder tornar a fer.
-Per als hackers, els reptes intel·lectuals són importants, com també ho és poder compartir els seus resultats amb la resta de la comunitat.
-Aquest model, en què el més important és la compartició d'informació i el treball cooperatiu, és força similar al que s'ha utilitzat tradicionalment al món acadèmic i científic.
-En aquests àmbits, els resultats de les investigacions es publiquen i es divulguen en publicacions científiques i serveixen de base per a noves investigacions.
-Aquest és principalment el model sobre el qual la humanitat ha innovat i avançat.
-Els hackers, fins i tot avui dia, són els principals impulsors i desenvolupadors de programari lliure, i llur ètica s'ha convertit en el codi ètic implícit sobre el qual s'ha desenvolupat el moviment.
-El sistema operatiu és el programa que interacciona entre el maquinari, l'usuari i les aplicacions.
-Sense un sistema operatiu, un ordinador no és més que un batibull de cables i metall.
-El Unix ha estat el sistema operatiu que més ha influït en la història de la microinformàtica, i és l'essència dels fonaments tècnics, i en part també filosòfics, sobre els quals es va desenvolupar el programari lliure a començaments de la dècada dels 80.
-Actualment es poden trobar al mercat des d'organitzadors personals fins a supercomputadors que utilitzen sistemes basats en Unix.
-A finals dels anys 60, l'empresa AT&T s'enfrontava als problemes creixents d'interoperatibilitat que representava tenir diferents ordinadors, de diferents fabricants, amb diferents sistemes operatius.
-Per solucionar-los, van crear el projecte Multics (Multiplexed Information and Computing Service), però aquest projecte fracassà per la seva extrema complexitat.
-El 1969, Ken Thompson i Dennis Ritchie, dos enginyers que havien treballat en Multics als laboratoris Bell, crearen la primera versió del sistema operatiu Unix.
-Les principals característiques que el feien un veritable avenç en el seu temps eren la possibilitat d'utilitzar-lo en diferents plataformes de maquinari i la seva capacitat multiusuari i multiprocés.
-La simplicitat i elegància del seu disseny han fet que, més de trenta anys després, encara sigui un sistema àmpliament utilitzat, tot i que des d'aleshores s'hi ha introduït moltes millores.
-Els anys següents, el Unix va anar evolucionant, però se seguia utilitzant exclusivament a sistemes ubicats a AT&T.
-El 1974, Thompson y Ritchie publicaren al simpòsium de sistemes operatius de l'ACM, Association for Computing Machinery, un article sobre el sistema Unix que havien dissenyat.
-Això va representar un punt d'inflexió, atès que van començar a rebre peticions d'universitats i centres de càlcul per tal d'aconseguir una còpia en cinta d'aquell sistema anomenat Unix.
-Gràcies a això, aquest sistema operatiu es va començar a estendre progressivament.
-AT&T no oferia cap assistència tècnica sobre el Unix, sinó que eren els propis usuaris qui l'havien de mantenir; s'iniciava així la tradició d'ajuda entre usuaris, els quals intentaven solucionar-se problemes mútuament, fomentant així l'intercanvi d'informació a través de diferents fòrums.
-Al començament, AT&T facilitava una còpia del codi font del Unix per uns pocs dòlars, la qual cosa va permetre que el sistema pogués ser adaptat a universitats i centres de computació.
-Una de les universitat pioneres en l'adopció i desenvolupament del Unix va ser la Universitat de Berkeley .
-El 1978 va alliberar la primera versió del Unix BSD (Berkeley Software Distribution), que incloïa diverses eines, dissenyades a la pròpia universitat, que milloraven considerablement la versió original del Unix.
-Un dels hackersinvolucrats en el desenvolupament de les primeres versions de la BSD fou Bill Joy, qui, anys més tard, crearia Sun Microsystems, on el Unix seria el sistema operatiu utilitzat en tota la seva gamma de maquinari.
-Amb el temps es van formalitzar dues grans branques de Unix, l'una produïda als laboratoris Bell d'AT&T, i l'altra a Berkeley amb el nom de BSD, basada en el codi font que AT&T els havia facilitat anys enrere.
-Totes dues versions requerien un pagament per obtenir una còpia del seu codi font, tot i que el de la BSD era molt més assequible.
-El 1979, AT&T va alliberar la versió 7 de la seva versió de Unix i va començar a posar grans dificultats per distribuir el codi font.
-A Berkeley van seguir innovant, desenvolupant millores com ara la implementació de sòcols (sockets) i el protocol TCP/IP, sobre el qual es basa la infraestructura d'Internet.
-A començaments dels anys 80 van proliferar els fabricants de sistemes, com ara IBM o Hewlett-Packard, que, amb el seu maquinari, facilitaven versions personalitzades de Unix basades en la versió d'AT&T.
-D'altres, com Sun Microsystems o Cray Inc., es basaren en la versió de Berkeley. Això va fer que, durant uns anys, aquestes dues versions de Unix fossin incompatibles entre si, però això quedaria solucionat més endavant en definir-se i acordar-se la implementació d'estàndards.
-AT&T va començar a adoptar una actitud de fabricant de programari de propietat i fins i tot va arribar a querellar-se contra els autors del BSD Unix.
-Aquesta actitud va crear molts recels envers AT&T entre la comunitat científica i universitària.
-Amb l'explosió de la microinformàtica, la davallada de preu dels sistemes informàtics i llur popularització entre les empreses van aparèixer les primeres empreses de programari.
-Moltes d'elles van començar contractant hackersque es trobaven al voltant dels centres de càlcul de les universitats, les quals, en conseqüència, es van anar despoblant d'aquells pioners.
-Però, a més, moltes d'aquestes empreses van pensar que, si denegaven als usuaris i a altres desenvolupadors l'accés al codi font de les aplicacions que milloraven o desenvolupaven, podrien aconseguir un avantatge competitiu real.
-Això va ser un punt d'inflexió important, ja que trencà amb la tradició de compartir el codi que havia imperat fins aleshores, i, conseqüentment, amb la pròpia ètica hacker.
-A poc a poc es va anar estenent un model de codi tancat, en virtut del qual el programari es venia sense el codi font i, cada cop més, les llibertats dels usuaris van anar minvant.
-Aquesta va ser l'època en què van aparèixer tècniques com ara les bombes de temps, que limitaven el temps durant el qual un usuari podia utilitzar un producte.
-Els programes de prova (shareware) farien populars més endavant aquestes bombes de temps com a sistema per obligar els usuaris a adquirir una llicència.
-Una de les persones que havia viscut de prop tota aquella evolució era Richard Stallman, qui va ser pioner en defensar les llibertats que s'havien perdut i qui va encunyar el terme "programari lliure".
-El 27 de setembre de 1983, Stallman, molt preocupat per aquesta pèrdua de llibertats, anunciava al fòrum de Usenet net-unix.
-wizards que començava a treballar en una implementació lliure d'un sistema inspirat en Unix, que anomenaria GNU, i que no contindria gens de codi de AT&T, és a dir, una implementació des de zero que no pogués crear problemes legals amb AT&T.
-En el missatge a Usenet, Stallman explicava en detall la seva experiència com a desenvolupador de sistemes i demanava l'ajuda de tothom que volgués oferir part del seu temps, diners o maquinari.
-El 1984, Stallman creà la Free Software Foundation5 amb l'objectiu de crear el sistema Unix lliure GNU i la potenciació del programari lliure.
-La definició de "programari lliure" proposada per la Free Software Foundation està basada en quatre llibertats bàsiques que qualsevol programa ha de garantir per poder ser considerat programari lliure: 
-1. Llibertat per poder utilitzar el programa amb qualsevol finalitat. 2.
-Llibertat per poder estudiar com funciona el programa; inclou l'accés al seu codi font.
-3. Llibertat per redistribuir el programa. 4. Llibertat per fer modificacions i distribuir les millores; inclou també l'accés al seu codi font.
-El programari lliure està basada en la cooperació i transparència, i garanteix un seguit de llibertats als usuaris.
-Aquests aspectes, i el fet que el seu desenvolupament hagi estat paral·lel al d'Internet, l'han convertit en el model a seguir per a un gran nombre d'usuaris que tenen una concepció llibertària de l'ús de les noves tecnologies.
-Els programes que no són lliures s'anomenen "de propietat" (proprietary software) o "privatius"; en són exemples totes les versions del Microsoft Windows o de l'Adobe Acrobat.
-És habitual que els usuaris confonguin el programari lliure amb el programari gratuït.
-És important distingir entre les llibertats que ens proporciona un programari i el seu cost.
-Un programa, pel sol fet de ser gratuït, no té per què ser també lliure, ni molt menys.
-Per exemple, l'Internet Explorer de Microsoft és un programa gratuït però no és lliure, atès que no dóna als seus usuaris la possibilitat d'estudiar-lo (incloent l'accés al seu codi font), ni de millorar-lo, ni de fer públiques aquestes millores amb el codi font corresponent per tal que tothom se'n pugui beneficiar.
-L'Internet Explorer és, doncs, un programa de propietat pel que fa a les llibertats, i gratuït pel que fa al cost.
-Cal fer una distinció fonamental entre els programes que garanteixen els drets de distribució i modificació, el programari lliure, i els que no els garanteixen, que són els que considerem de propietat.
-Quant al cost, qualsevol programari lliure es pot vendre, sempre que es respectin les llibertats originals que el defineixen.
-Per exemple, l'empresa francesa Mandrake o la nord-americana Novell venen distribucions de GNU/Linux, i es tracta de programari lliure perquè conserva les llibertats que el defineixen.
-Durant els anys 80, Stallman va continuar treballant en el desenvolupament de les eines necessàries per crear un sistema operatiu completament lliure.
-Publicà una versió de l'editor GNU Emacs i treballà en eines fonamentals per al moviment del programari lliure, com ara el compilador GCC o el depurador GDB.
-De bon començament, Stallman va identificar la necessitat de crear les proteccions jurídiques necessàries per al programari lliure, El 1989 publicà la versió 1.
-0 de la llicència GPL (General Public License), un projecte que havia estat elaborant des del 1985, i que consistia en un contracte entre l'autor del programari i l'usuari que garantia la cessió dels drets que definien el programari lliure.
-La llicència GPL era una eina legal molt important, atès que Stallman havia patit molt veient com alguns programadors agafaven codi que era programari lliure i hi feien modificacions, però sense aportar-les a la comunitat.
-El 1991, un estudiant finlandès de 21 anys anomenat Linus Torvalds publicava en la Xarxa el seu propi nucli de sistema operatiu, inspirat en Unix, que més endavant s'anomenaria Linux.
-Ràpidament, molts hackersvan ajuntar-se en un esforç col·lectiu per ajudar-lo a millorar el nucli del sistema operatiu, el qual va créixer en importància; aquest era, precisament, el cor que li faltava al sistema GNU que Stallman estava dissenyant.
-D'aquesta manera, els hackersde Linux van anar adaptant les eines de GNU al nucli de Linux i crearen les primeres distribucions GNU/Linux, que incloïen el Linux i totes les eines necessàries per a la seva utilització per part dels usuaris.
-Richard Stallman ha insistit molt8 en el fet que el sistema GNU/Linux existeix gràcies a les aportacions de la Free Software Foundation, i proposa utilitzar la denominació GNU/Linux per referir-se a sistemes complets que incorporin un nucli Linux.
-La majoria d'usuaris i distribucions comercials, però, segueixen parlant de Linux per referir-se tant al sistema com al nucli.
-El Linux s'ha convertit en el vaixell insígnia del moviment del programari lliure, atès que és un sistema operatiu completament lliure que inclou tota mena d'eines per a servidors i usuaris finals.
-El 1993, Jordan Hubbard i altres desenvolupadors, basant-se en la feina feta per a la versió de Unix de BSD, crearen el projecte FreeBSD9 amb l'objectiu de construir una comunitat al voltant d'una versió lliure del ja històric Unix BSD.
-Per evitar problemes legals, però, van haver de reescriure una part important del sistema, i no va ser fins al 1995 que pogueren començar a oferir un sistema lliure de problemes legals.
-El FreeBSD mai no ha gaudit de la popularitat del Linux, però és àmpliament utilitzat a Internet i es fa servir en llocs web com ara Yahoo!, Hotmail o Apache.
-És també la base per a les noves versions del sistema operatiu Mac dins del projecte Darwin10 . 
-El 1996 s'inicià el projecte KDE amb l'objectiu de desenvolupar un entorn d'escriptori, modern i senzill d'utilitzar, per a Linux.
-L'aspecte més polèmic va ser basar-lo en la biblioteca QT, escrita per l'empresa TrollTech .
-Aquesta biblioteca, aleshores gratuïta per a l'ús no comercial, no era, però, programari lliure.
-Això va enfurismar la comunitat de programari lliure, ja que, per a molts hackers, l'objectiu era fer un sistema operatiu completament lliure, i una part tan important del mateix no podia basar-se en programari de propietat.
-El 1997, el mexicà Miguel de Icaza va presentar el projecte GNOME amb l'objectiu de desenvolupar també un escriptori modern i senzill d'utilitzar, però basat en la biblioteca GTK, completament lliure.
-El setembre de 2000, TrollTech anuncià que llicenciava la biblioteca QT sota la llicència GPL, cosa que la convertia en lliure, però només per a usos lliures.
-Avui dia, tant el KDE com el GNOME són escriptoris àmpliament utilitzats en Linux i han assolit un important nivell de maduresa i solidesa.
-L'any 1998 va ser un any especialment important per al programari lliure.
-Netscape anuncià la publicació sota llicència lliure del seu navegador web Netscape Communicator 4, fins aleshores un producte comercial, així com la publicació del seu codi font sota el nom de Mozilla.
-Aquest anunci sorprengué molts analistes, ja que no tenia cap precedent en la indústria del programari.
-Fou un moment d'inflexió per al programari lliure, perquè una empresa tan important en aquell moment com Netscape feia una aposta ferma pel moviment i posava a disposició de la comunitat un navegador d'Internet amb les últimes tecnologies.
-L'any següent, Sun Microsystems faria el mateix amb l'Star Office, creant el projecte OpenOffice.
-org. Els mesos següents, els principals fabricants de bases de dades, com ara IBM i Oracle, anunciaven que els seus productes serien compatibles amb Linux com a plataforma, cosa que representava un aval davant del seu ús en el món empresarial.
-Durant el 1998, Eric S. Raymond, Bruce Perens i altres hackersinvolucrats en el desenvolupament del programari lliure van presentar l'Open Software Initiative i van proposar l'ús del terme “open source” (codi obert) com a alternativa a “free software” (programari lliure) per fer-lo més atractiu al món empresarial.
-El terme “free software” creava, en el món de parla anglesa, una situació incòmoda a causa de la doble accepció que, en anglès, té el terme “free”, és a dir, “gratuït” o “lliure”.
-La gran majoria d'empreses dels Estats Units utilitzen preferentment el terme “codi obert” per evitar donar la idea que el programari lliure és un recurs totalment gratuït i per donar èmfasi al valor diferencial que atorga el fet que el codi font estigui disponible.
-Bruce Perens, de l'Open Source Initiative i antic coordinador de Debian , una de les distribucions de Linux, va determinar la llista de condicions que un programa ha de satisfer per poder ser considerat de codi obert.
-Aquestes condicions són molt similars, i de fet hi estan basades, a les directrius de programari lliure de Debian , són aplicables a qualsevol programari lliure i poden ajudar-nos a matisar les seves implicacions.
-1.  Lliure distribució. No es pot impedir la venda o distribució del programa o d'una part del mateix.
-De la mateixa manera, tampoc no es pot exigir el pagament d'un cànon o taxa a canvi de la seva distribució per part de tercers.
-1.  Codi font. El programa ha d'incloure el seu codi font i no se'n pot restringir la distribució.
-1.  Obres derivades. No es pot impedir realitzar modificacions o treballs derivats del programa i cal permetre que aquests treballs es distribueixin amb les mateixes condicions que el programari original.
-1.  Integritat del codi font original. Es pot exigir que una versió modificada del programa tingui un nom i número de versió diferent que el programa original per poder protegir l'autor original de la responsabilitat d'aquestes versions.
-1.  No discriminació contra persones o grups. Les condicions d'ús del programa no poden ser discriminatòries envers una persona o un grup de persones.
-1.  No discriminació contra usos. No es pot negar a ningú fer ús del programa amb una finalitat determinada, com per exemple comercial o militar.
-1.  Distribució de la llicència. Els drets del programa s'han d'aplicar a tothom a qui es redistribueixi el programa i sense cap condició addicional.
-1.  La llicència no ha de ser específica d'un producte. Els drets que es garanteixen a l'usuari del programa no han de dependre de que el programa formi part d'una distribució o d'un paquet de programari determinat.
-1.  La llicència no ha de restringir un altre programari. La llicència no ha de posar restriccions en altres programes que es distribueixin juntament amb el programari llicenciat.
-1.  La llicència ha de ser tecnològicament neutra. Cap disposició de la llicència no obligarà a l'ús d'una tecnologia concreta.
-El paper del programari lliure en el creixement d'Internet 
-El programari lliure ha tingut un paper fonamental en el creixement i extensió de la Xarxa.
-Si heu utilitzat mai Internet ja sou un usuari de programari lliure, perquè la part més gran de la infraestructura d'Internet està basada en protocols oberts.
-Aproximadament un 67% de servidors web utilitzen Apache , una altra gran quantitat utilitzen SendMail per gestionar l'enviament de correu electrònic i la pràctica totalitat dels servidors de noms (DNS), essencials per al funcionament de la Xarxa, utilitzen el programa BIND o derivats del seu codi font.
-Tim Berners-Lee, creador del web, explica com l'any 1993 va decidir pressionar el CERN, on treballava, per tal que cedís sota la llicència GPL, creada per la Free Software Foundation, tot el programari que havia creat fins aleshores per realitzar la infraestructura del web.
-Finalment, l'abril d'aquell mateix any, el CERN accedí a permetre que qualsevol persona pogués utilitzar lliurement el seu programari i protocols.
-És indiscutible la importància que el programari lliure ha tingut en l'extensió i el desenvolupament d'Internet des de bon començament.
-Sense l'existència del programari lliure, avui en dia probablement Internet no existiria.
-Igual d'important ha estat el fet que els protocols que defineixen l'arquitectura d'Internet siguin oberts i que no hagin estat controlats per una o diverses empreses .
-Tot sovint ens trobem amb creadors de llocs web que només proven les seves pàgines amb l'Internet Explorer de Microsoft, habitualment per un desconeixement de l'existència i el grau d'implantació d'altres navegadors o, de vegades, perquè simplement no consideren que la compatibilitat sigui un tema important.
-Internet ha creat els seus propis mecanismes per evitar aquesta mena de situacions.
-El 1994 es creà el World Wide Consortium (W3)19 , que agrupa els principals fabricants de programari d'Internet, amb la finalitat principal de definir i promoure la creació d'estàndards per al web.
-En realitat, quan parlem d'estàndards web ens referim gairebé sempre a les definicions i recomanacions d'aquest organisme, que ha aconseguit que pràcticament tots els navegadors moderns funcionin, en un grau acceptable si més no, amb els estàndards més recents.
-Això que hem vist que s'esdevé al web es produeix també en un àmbit molt important: l'intercanvi de dades entre aplicacions.
-Normalment es defineixen formats que permeten intercanviar dades entre elles, però, tot i que seria desitjable que aquests formats, contenidors de la nostra informació, fossin coneguts per tothom i no n'estigués restringit l'ús, de vegades poden tenir limitacions d'ús o, simplement, no estar documentats.
-Els formats lliures garanteixen la llibertat dels usuaris per intercanviar informació amb tothom, independentment de l'aplicació que facin servir, atès que permeten que qualsevol programador pugui desenvolupar programari que treballi amb aquests formats.
-Si, per exemple, utilitzem el PowerPoint de Microsoft per enviar una presentació, només els usuaris d'aquest programa tindran garantit l'accés a totes les seves particularitats.
-La restricció en l'accés de la informació amb un navegador o format determinat representa una discriminació contra els usuaris dels altres navegadors o aplicacions, i aquest fet afecta i preocupa especialment el món del programari lliure.
-L'any 2003 s'aprovà un Real Decret20 al Boletín Oficial del Estado que regula els registres i les notificacions telemàtiques, i on s'estableix el compliment dels estàndards web.
-Actualment, en informàtica es dóna una situació de monopoli en dues de les àrees més importants per als usuaris: els sistemes operatius i les aplicacions ofimàtiques.
-Tots els ordinadors del món necessiten un sistema operatiu per poder funcionar, i fins i tot hi ha persones que pensen que el sistema operatiu és quelcom tan bàsic i fonamental en la Societat de la Informació que caldria que fos declarat un bé públic.
-Microsoft, amb les diverses versions del sistema operatiu Windows, gaudeix d'una base instal·lada de més d'un 90% del total dels sistemes operatius del món.
-Aquesta situació el col·loca em una posició de control del mercat molt per davant dels seus competidors.
-En ser productor del sistema operatiu Windows i d'aplicacions que s'executen sobre ell, com ara el Microsoft Office, la multinacional sap més bé que ningú com treure profit del sistema.
-Coneix detalls del seu disseny a qui ningú més no té accés, ja que es tracta d'un programa de propietat, i sap amb molta més antelació les noves funcions que tindran les noves versions del sistema i com explotar-les.
-Durant els judicis antimonopoli que Microsoft va tenir als Estats Units es va proposar que l'empresa es dividís en dues : una que dissenyés els sistemes operatius i una altra les aplicacions.
-Microsoft no solament ha utilitzat aquest evident avantatge, sinó que, a més, en multitud d'ocasions ha dut a terme pràctiques èticament qüestionables, com ara en el cas del DR-DOS.
-A començaments dels 90, Microsoft venia l'MS-DOS com a principal sistema operatiu i començava a vendre també el Windows 3, que s'executava sobre MS-DOS.
-En aquella època, l'empresa Digital Research comercialitzava el DR-DOS, un sistema alternatiu i compatible amb l'MS-DOS, però molt més barat i tècnicament superior.
-L'alternativa de Digital Research va anar guanyant acceptació i va començar a representar una amenaça per a les vendes de l'MS-DOS, de manera que Microsoft decidí afegir deliberadament unes instruccions al programa Windows 3.
-1 per tal que només funcionés correctament22 si s'executava sobre MS-DOS i donés un missatge d'error si s'intentava fer-lo funcionar sobre DR-DOS.
-Digital Research va demandar Microsoft. Aquest és només un dels molts exemples que il·lustren la manera en què Microsoft ha utilitzat el seu poder sobre la plataforma Windows per danyar la competència.
-Una altra tendència de Microsoft és utilitzar el sistema operatiu com a plataforma per integrar-hi aplicacions i imposar la seva tecnologia.
-Així, Microsoft decidí integrar l'Internet Explorer i el Windows Media Player en el Windows, deixant Netscape i Real Audio fora del mercat.
-Totes dues empreses van portar Microsoft a judici. 
-Després del sistema operatiu, l'aplicació més utilitzada pels usuaris és el paquet ofimàtic: un processador de textos, un gestor de fulls de càlcul i les eines associades.
-De nou, Microsoft, amb el seu producte Microsoft Office, gaudeix d'una quota de mercat similar a la de Windows, és a dir, una situació de monopoli.
-Microsoft té diversos judicis als Estats Units i a Europa per pràctiques monopolístiques; governs, empreses i usuaris d'arreu del món depenen d'una manera exclusiva d'aquest programari de propietat.
-Moltes persones veuen en el programari lliure una solució per trencar aquesta situació de monopoli i aconseguir que el mercat i els usuaris puguin recuperar la seva llibertat.
-No és estrany que Microsoft i la comunitat del programari lliure tinguin sovint topades i discrepàncies, ja que llurs visions de l'ètica en el món del programari són totalment contraposades.
-Veure Microsoft amb recel és una tendència general de la indústria informàtica.
-Capítol 2 - Avantatges i mites del programari lliure Avantatges del programari lliure 
-El programari lliure té tot un seguit d'avantatges sobre el programari de propietat a causa dels drets que atorga als seus usuaris.
-Alguns d'aquests avantatges poden ser més apreciats pels usuaris particulars, d'altres per les empreses i d'altres per les administracions públiques.
-Malauradament, el programari lliure ha estat objecte de desinformacions i mites, alguns provocats expressament, que han intentat distorsionar la seva credibilitat.
-Començarem esmentant-ne els principals avantatges i després n'analitzarem els falsos mites.
-Per a la majoria d'usuaris individuals, el programari lliure és una opció atractiva per les llibertats que garanteix sense haver de preocupar-se del preu.
-En el cas d'empreses i de l'Administració Pública, el cost del programari és un factor important, i de vegades determinant, en l'elecció de nous sistemes informàtics.
-Quan s'analitza el preu d'una solució tecnològica se sol parlar del TCO (Total Cost of Ownership), és a dir, del cost total de la propietat que té una solució de programari determinada.
-Aquest concepte fou inventat pel Gartner Group el 1987 com a eina d'anàlisi exhaustiva dels costos d'una solució de mercat, i des d'aleshores s'ha convertit en un estàndard.
-En aquesta anàlisi queden reflectits el cost del programa, l'ajuda i el manteniment tecnològic de la solució.
-Partim de la base que el programari lliure no té pràcticament costos de llicència i, per tant, aquesta part del pressupost es pot invertir en coses més interessants, com ara la millora en l'adaptació dels programes i la formació en aquesta tecnologia.
-Segons un estudi de la consultora Robert Frances Group, publicat el , el TCO del sistema operatiu lliure Linux era menys de la meitat que el del Windows.
-En l'estudi s'analitza el cost de diversos servidors durant un període de tres anys, i es fa palès que una gran part de l'estalvi prové del fet de no haver de pagar llicència i dels menors costos d'administració.
-Un altre estudi en el mateix sentit, realitzat per la consultora ConsultingTimes , arriba a la mateixa conclusió, en aquest cas sobre el TCO de sistemes de correu: en tots els casos plantejats, les solucions basades en programari lliure són molt més econòmiques.
-No obstant això, a més dels costos menors també cal considerar altres aspectes positius del programari lliure que no queden reflectits en les anàlisis TCO, com ara la independència del proveïdor i la possibilitat d'una adaptació completa.
-Per últim, cal destacar que existeixen força anàlisis de TCO que es decanten clarament cap al fabricant que va patrocinar la realització de l'anàlisi.
-És imprescindible anar amb compte amb aquesta mena d'anàlisis i cercar altres fonts que ens puguin ajudar a contrastar la informació facilitada.
-El model del programari lliure, on el més important és compartir la informació i la feina cooperativa, és força similar al que s'ha utilitzat tradicionalment en el món acadèmic i científic.
-En aquests àmbits, els resultats de les investigacions es publiquen i es divulguen en publicacions científiques, i serveixen de base a noves investigacions.
-Aquest és principalment el model sobre el qual la humanitat ha innovat i avançat.
-En el món del programari de propietat, les llicències i patents de programari, i altres eines legals i tècniques, s'utilitzen per impedir que terceres persones participin d'aquest coneixement i per mantenir-lo com a patrimoni exclusiu de l'empresa que el va crear.
-La innovació pertany a una empresa, mentre que, en el món del programari lliure, de manera molt similar al domini públic, el coneixement pertany a la Humanitat.
-En el programari lliure, els usuaris tenen un paper destacat, atès que influeixen de manera decisiva en la direcció en què els programes evolucionen; voten els errors que volen veure corregits, proposen noves funciones per al programa o contribueixen personalment al seu desenvolupament.
-A finals de 2004 es publicà una llista de les innovacions en programari més importants de l'any; es considerà com a innovació número 1 el navegador lliure Firefox i, entre els deu programes que s'hi esmentaven, també hi era l'OpenOffice.
-Requisits de maquinari i durabilitat de les solucions 
-Tot i que resulta impossible generalitzar, existeixen casos ben documentats en què les solucions de programari lliure tenen uns requisits de maquinari menors i, per tant, són més barates d'utilitzar.
-Per exemple, els sistemes Linux que actuen com a servidors es poden utilitzar sense la interfície gràfica, i això representa una reducció en el maquinari necessari.
-També és important destacar que, en el programari de propietat, en un determinat moment l'autor pot decidir no continuar amb el projecte per a una determinada plataforma, per a un maquinari que consideri obsolet, o deixar d'actualitzar una versió del seu programari.
-En les aplicacions de programari lliure, aquestes decisions no les pot prendre una empresa o un individu, sinó tota una comunitat amb interessos diversos.
-Això es tradueix, generalment, en un millor suport per a les versions de programari antigues i per a les plataformes de maquinari o programari més minoritàries.
-El model de desenvolupament del programari lliure segueix un mètode pel qual el programari és escrit de manera cooperativa per programadors, en gran part voluntaris, que treballen a Internet de manera coordinada.
-Lògicament, el codi font del programa és visible per tothom, i són freqüents els casos en què s'informa d'errors que algú ha descobert mentre el llegia o hi treballava.
-El procés de revisió pública a què està sotmès el desenvolupament del programari lliure imprimeix un gran dinamisme al procés de correcció d'errors.
-Els usuaris del programa d'arreu del món, ja que en disposen del codi font, poden detectar-hi i corregir-ne els possibles errors, i contribuir al seu desenvolupament amb llurs millores.
-Són habituals els casos en què un error de seguretat en Linux és fa públic al mateix temps que la seva solució.
-Amb el programari de propietat, la solució dels errors no arriba fins que el fabricant del programa pot destinar els recursos necessaris per solucionar el problema i publicar-ne la solució.
-Un dels grans problemes en la indústria del programari és la dependència que es crea entre el fabricant i el client.
-Aquest fet esdevé encara més greu quan el fabricant no en lliura el codi font, ja que, inevitablement, el client hi quedat lligat per a noves versions i, en general, per a qualsevol millora que necessiti.
-Gràcies a la disponibilitat del codi font, el programari lliure garanteix una independència respecte al proveïdor.
-Qualsevol empresa o professional, amb els coneixements adequats, pot seguir oferint desenvolupament o serveis per a la nostra aplicació.
-En el món del programari de propietat, el desenvolupador de l'aplicació és l'únic que pot oferir tots els serveis.
-Tot sovint, els proveïdors de programari de propietat es veuen obligats a deixar de fabricar un producte per un canvi dràstic en les condicions del mercat, o simplement perquè consideren que ja no podran rentabilitzar la inversió.
-Disposant del codi font, qualsevol programador pot continuar el seu desenvolupament i les seves actualitzacions fins que el client decideixi que és el moment adient per migrar a un sistema informàtic nou.
-Segons la SEDISI (Asociación Española de Empresas de Tecnologías de la Información), l'any 2001 la indústria del programari a Espanya5 va moure 1.
-139,84 milions d'euros, dels quals 315 es van destinar a les vendes de sistemes operatius, que es desenvolupen íntegrament als Estats Units.
-De la resta, les eines de desenvolupament i el programari de bases de dades, la pràctica totalitat dels quals es desenvolupen també als Estats Units, van representar 126,68 i 156,03 milions respectivament.
-A Espanya hi ha poca indústria pròpia de programari estàndard, i gairebé totes les aplicacions de consum massiu es desenvolupen a altres països.
-Un gran percentatge de la indústria està basada en distribuir i donar suport i formació a productes realitzats fora de les nostres fronteres; això deixa el desenvolupament dels productes, que realment és la part de la indústria que requereix enginyers més qualificats i que genera valor i coneixement, en altres països.
-En l'àmbit de l'Administració Pública, una part important de la inversió en programari es destina a llicències de sistemes operatius, servidors i paquets d'ofimàtica, que es produeixen totalment a l'estranger i que només tenen repercussió econòmica a Espanya en els marges de distribució.
-El programari lliure no té cap cost de llicència a causa del dret a còpia, i, en disposar del codi font de l'aplicació, és possible desenvolupar internament les millores o modificacions necessàries, en comptes d'haver-les d'encarregar a empreses d'altres països que treballen amb sistemes de propietat.
-Així, hom contribueix a la formació de professionals en noves tecnologies i al desenvolupament local.
-D'altra banda, totes les millores que s'hi realitzen no tenen cap restricció i es poden compartir amb qualsevol altra administració, empresa, institució o organisme que les necessiti.
-En el programari de propietat, aquestes millores, o no es poden dur a terme, o queden en mans de l'empresa creadora, la qual, normalment, es reserva els drets d'ús i propietat intel·lectual i determina les condicions en què les comercialitzarà.
-A Espanya existeix la Llei Orgànica de regulació del tractament automatitzat de les dades de caràcter personal (LORTAD), que regula la protecció de les dades de les persones individuals .
-No obstant això, hi ha aspectes que no estan regulats per la llei, i no per això són menys preocupants.
-El programari lliure, en tenir un codi accessible, millora diversos aspectes relacionats amb la perennitat de les dades i llur seguretat.
-Per començar, els sistemes d'emmagatzematge i recuperació de la informació del programari són públics, i qualsevol programador pot veure i entendre com s'emmagatzemen les dades en un determinat format o sistema, cosa que garanteix la durabilitat de la informació i la seva migració posterior.
-Un exemple d'això seria el cas d'una base de dades d'un cens electoral; el programari de propietat treballa normalment amb formats propis, els mecanismes d'emmagatzematge dels quals no sempre s'han fet públics, i potser no seria possible, doncs, recuperar el contingut d'aquest cens en cas que fos necessari migrar el sistema.
-El programari lliure, pel seu caràcter obert, dificulta la introducció de codi maliciós, espia o de control remot, atès que el codi és revisat per molts usuaris i desenvolupadors que poden detectar possibles portes secretes (backdoors).
-En el programari de propietat mai no podrem saber si els programadors originals van introduir a títol personal, o per encàrrec de l'empresa, portes secretes que posen en perill la seguretat del sistema o la privadesa de les dades.
-Alguns fabricants de programari de propietat han col·laborat amb agències governamentals per incloure accessos secrets al programari i poder, d'aquesta manera, visualitzar dades confidencials, amb la qual cosa es comprometen aspectes de la seguretat nacional si aquests sistemes s'utilitzen per emmagatzemar dades crítiques dels governs.
-En el món del programari lliure, qualsevol programador pot realitzar una auditoria per comprovar que no s'ha introduït cap codi maliciós, i, al seu torn, qualsevol entitat pot afegir lliurement xifratge addicional a l'aplicació que utilitzi per protegir les seves dades.
-L'empresa Mitre ha elaborat un estudi , per encàrrec del Departament de Defensa dels Estats Units, on s'analitza l'ús de programari lliure i de codi obert en sistemes que es troben en producció en aquest departament.
-Les conclusions són clarament favorables a seguir incrementant l'ús del programari lliure, i s'hi destaca la possibilitat que ofereix de solucionar errors de seguretat de forma immediata sense dependre d'un proveïdor extern.
-Segons aquest informe, al Departament de Defensa hi ha més de 115 aplicacions de programari lliure en ús, amb més de 250 exemples de la seva utilització en diferents entorns.
-Habitualment, el programari de propietat es ven en forma de paquet estàndard, que tot sovint no s'adapta a les necessitats específiques d'empreses i administracions.
-Una gran part de la indústria del programari està basada en el desenvolupament de projectes on cal un programari personalitzat.
-Gràcies al fet que disposem del codi font, el programari lliure permet personalitzar els programes tant com sigui necessari fins que cobreixin exactament les nostres necessitats.
-La personalització és una àrea molt important en què el programari lliure pot respondre molt millor que el programari de propietat, i a uns costos molt més raonables.
-Aproximadament, un 75% del programari que s'escriu en el món és programari d'ús intern per a empreses, que requereix un alt grau de personalització, i en el qual el programari pot proporcionar un desenvolupament més econòmic.
-Les llengües minoritàries com ara el català, l'èuscar, el gallec o l'occità han tingut poques possibilitats de desenvolupar-se en el món del programari de propietat.
-Això es deu al fet que, a causa de la seva llicència, només el fabricant del programari pot realitzar-ne o autoritzar-ne les traduccions.
-A més, en el passat, tant en el cas del català com en el de l'èuscar les traduccions de sistemes operatius i paquets d'ofimàtica de Microsoft s'han fet a preus desorbitats10 i en poc temps han quedat obsoletes.
-En el món del programari lliure, aquestes llengües, i moltes d'altres, gaudeixen d'una bona salut.
-Els principals projectes lliures, com ara l'OpenOffice.
-org, el KDE, el Mozilla o el GNOME , així com moltes altres aplicacions, tenen nombroses traduccions, ja que no precisen autorització de cap propietari i qualsevol persona o institució pot realitzar-les, mentre que en el programari de propietat només l'empresa productora posseeix els drets per realitzar-la.
-A més, si el programa que traduïm no disposa d'un corrector ortogràfic en la nostra llengua, podem desenvolupar el nostre propi corrector o adaptar-hi algun dels existents en el món del programari lliure12 . 
-Finalment, cal destacar que, cada vegada que es crea un nou recurs lingüístic en l'àmbit del programari lliure (una traducció, un diccionari, un glossari, etc.
-), atès que queda a l'abast de tothom pot ser reutilitzat en futures aplicacions.
-En el món del programari de propietat, cada traducció i recurs lingüístic creat està lligat al fabricant i a les seves restriccions d'ús.
-FUD és un acrònim anglès que correspon a Fear, Uncertainty and Doubt(por, incertesa i dubte).
-FUD és una estratègia que consisteix en confondre el públic proporcionant informació incompleta, presentant una visió distorsionada de la realitat i deixant la resta a la imaginació del receptor del missatge, amb l'objectiu de crear por, incertesa i dubte en el moment d'haver de avaluar solucions de la competència.
-Els objectius principals del FUD són usuaris, analistes de mercat i responsables d'informàtica.
-Microsoft i altres fabricants de la indústria han utilitzat àmpliament aquestes tècniques.
-Per exemple, l'empresa dirigida per Bill Gates va intentar fer creure a la indústria que calia utilitzar els seus productes Windows NT conjuntament en client i servidor, creant por, incertesa i dubte sobre si NT podria funcionar amb altres sistemes que no fossin els seus.
-El programari lliure ha estat objectiu d'atacs d'aquesta mena des de diferents fronts, i en alguns casos això ha fet que s'endarrerís l'adopció de solucions basades en programari lliure.
-L'octubre de 1998 es van filtrar, amb pocs dies de diferència, diversos documents interns de Microsoft que descrivien i analitzaven l'amenaça que representava el programari lliure per a l'empresa i recomanaven algunes estratègies en la línia FUD.
-Als pocs dies, Microsoft va confirmar l'autenticitat dels documents i va reconèixer que havien estat escrits per alguns dels seus empleats, però va dir que no representaven la posició oficial.
-Aquests documents es coneixen com "documents de Halloween", ja que el primer document es va filtrar coincidint amb aquesta festivitat.
-Els documents de Halloween reconeixien, ja l'any 1998, que el programari lliure havia aconseguit nivells de credibilitat importants, que tenia una qualitat semblant o superior al programari de propietat, i que representava una amenaça per a les vendes de Microsoft.
-Els documents, a més, admetien que, segons l'opinió de Microsoft, les tècniques FUD no havien tingut gaire efecte sobre el programari lliure i que la millor estratègia era estendre els estàndards actuals de forma que només Microsoft pogués proporcionar el programari amb què funcionessin correctament .
-Aquesta tècnica es coneix popularment com "contaminació d'estàndards".
-Per combatre el FUD i els seus efectes negatius, la millor estratègia és donar la màxima informació possible sobre el programari lliure.
+A cadascuna d'elles se li assigna un mòdul sobre el qual té potestat.
 A continuació enumerarem alguns dels mites i errors més comuns sobre el programari lliure i donarem la visió que se n'hi té.
-Linux és un dels vaixells insígnia del moviment del programari lliure, però la realitat és que hi ha molts més programes lliures, com per exemple l'OpenOffice.
-org, el Mozilla, l'Abiword, el GIMP i molts altres, disponibles per a multitud de sistemes, incloent el Microsoft Windows i el Mac OS.
-El concepte de programari lliure no està lligat a cap sistema, sinó que, de fet, també és aplicable a la documentació i a tota mena de creacions artístiques digitals.
-Avui en dia, empreses com ara IBM, Sun, Compaq, Dell, RedHat, Suse, Mandrake, Novell i moltes altres donen suport i serveis professionals de sistemes basats en programari lliure a usuaris, empreses i institucions.
-D'altra banda, el suport tècnic d'empreses de programari de propietat s'acostuma a adquirir com a servei addicional.
-Les motivacions dels programadors de programari lliure són molt diverses.
-Hi ha centenars de projectes impulsats només per voluntaris, altres projectes vinculats a universitats, d'altres a empreses, i molts que són combinacions dels anteriors.
-Cada dia s'escriuen línies de codi nou i existeixen més projectes lliures, com ho demostren estadístiques com les de SourceForge .
-D'altra banda, són habituals els casos en què un client contracta un programador per desenvolupar una aplicació que després alliberarà en llicència lliure, o que paga per ampliar una ja existent.
-Que el resultat sigui lliure no significa que no hi hagi una remuneració per la feina.
-En totes les indústries hi ha factors disruptius que ocasionen que alguns fabricants surtin del mercat i que n'apareguin nous.
-El programari lliure no destrueix la indústria, sinó que representa un model de producció diferent en què, cada vegada més sovint, estan interessats empreses, usuaris i administracions.
-Segons LibroBlanco.com , una iniciativa que fa un seguiment del programari lliure en l'àmbit del sector públic, a juliol de 2004 hi havia 289 empreses comptabilitzades a Espanya que treballaven i donaven serveis basats en programari lliure.
-La comunitat del programari lliure desenvolupa constantment nous programes, millora els existents, i crea nova documentació i material de suport que són patrimoni de la humanitat i que centres d'investigació, universitats, usuaris, i empreses utilitzen arreu del món.
-El programari de propietat només pot ser millorat per l'empresa propietària del codi, deixant la innovació exclusivament en les seves mans i en els seus interessos comercials.
-El programari de propietat crea monopolis, i en una situació així la innovació és molt menor que la situació de lliure mercat que crea el programari lliure.
-La disponibilitat del codi font crea versions incompatibles 
-El món del programari lliure ha aprés molt dels Unix de propietat, en què això va ser realment un problema durant els anys 80 i 90.
-L'exemple més clar que això no està passant en el món del programari lliure és la total compatibilitat entre les diferents distribucions de Linux.
-El programari lliure està protegit pels drets d'autor.
-Si una empresa vol copiar part del codi d'una aplicació ha de fer-ho respectant la llicència amb què es va publicar el codi.
-Si aquesta llicència és del tipus copyleft, com ho és per exemple la GPL, el seu codi també haurà de ser GPL i per tant haurà de convertir-se en un proveïdor de solucions lliures.
-No hi ha cap empresa que desitgi violar la propietat intel·lectual d'una altra empresa.
-El programari lliure és més insegur que el de propietat perquè el seu codi és a la Xarxa 
-Un dels informes que amb més profunditat han analitzat el tema de la seguretat del programari lliure en comparació a la del propietari és el que Ross Anderson presentà l'any 2002 en un congrés a Tolosa, França.
-L'informe conclou que el fet que el codi estigui disponible a llarg termini no suposa una diferència per si mateix, i que això no representa un fet diferencial.
-Avui dia, quan la capacitat de generar coneixement i expressions intel·lectuals s'ha convertit en l'eix central del nostre entorn econòmic i social, conèixer el marc legal que regula les nostres expressions intel·lectuals és gairebé tan necessari com tenir la capacitat per realitzar-les.
-Una part important de la innovació que ha introduït el programari lliure consisteix en definir de nou com gestionem les eines legals disponibles per col·lectivitzar el coneixement i garantir més drets als seus usuaris.
-Algunes d'aquestes idees han estat adoptades posteriorment per creadors de continguts digitals com ara música, vídeo o llibres.
-En el món del programari, entendre el marc jurídic que regula la propietat intel·lectual i industrial és fonamental per conèixer les condicions sota les quals podem cedir els nostres programes informàtics o utilitzar els de tercers.
-Si som usuaris, és important comprendre quins drets i obligacions rebem en adquirir una determinada aplicació o paquet, i, si som creadors, hem de saber com podem cedir els nostres programes als nostres usuaris i quins drets i obligacions els estem oferint.
-El programari és fruit de l'esforç, valor intel·lectual i inversió de l'autor i en representa la creativitat.
-Així mateix, en la gran majoria dels casos, té un ús industrial en el sentit ampli: en les diferents activitats comercials, industrials o recreatives de l'home.
-Per tant, s'ha estimat que el programari mereix una protecció legal com qualsevol altra creació humana, amb la diferència que es tracta d'una creació intel·lectual.
-Es recorre a la protecció que ofereix el dret de la propietat intel·lectual i industrial, que atorga als autors certs drets monopolístics d'explotació de la seva obra i de control sobre diverses activitats relacionades: la còpia, la modificació, la distribució, la comercialització, i fins i tot el seu ús en els processos i la producció industrials.
-Tradicionalment, en el món del programari de propietat s'ha utilitzat aquest marc legal per garantir que el fabricant del programari -que té drets exclusius sobre el programa informàtic- pugui blocar l'accés al codi font dels seus programes, impedir a la competència que desenvolupi productes semblants, i limitar els drets que els usuaris tenen sobre el programa, com ara la còpia o la modificació.
-Així mateix, amb una patent pot impedir a la competència que desenvolupi productes semblants.
-És, per exemple, impossible que nosaltres traduïm (perquè es considera modificació) un programa informàtic de propietat que haguem comprat per al nostre propi ús, i ja és totalment impensable que puguem distribuir aquesta traducció entre altres usuaris, fins i tot encara que també hagin adquirit el programa.
-Pel contrari, en el món del programari lliure s'utilitza el marc legal dels drets d'autor per col·lectivitzar els drets que l'autor té sobre el programari, incloent els drets a còpia, ús i modificació.
-Els drets d'autor són l'eina jurídica bàsica utilitzada per a la protecció dels programes informàtics i les creacions intel·lectuals.
-Regulen els drets que es reconeixen, de forma exclusiva, al creador d'una obra, i que són, principalment, els drets “morals” de reconeixement de l'autor i la divulgació de la seva obra i els drets “patrimonials” de reproducció, distribució, comunicació, i transformació de la mateixa.
-S'obtenen de forma automàtica, són gratuïts (no requereixen cap taxa ni registre) i són reconeguts internacionalment.
-Es van crear, sobretot, per protegir els textos literaris, obres artístiques i similars, i no s'adapten gaire bé al programari que té un component “escrit” (i és per això que es protegeix d'aquesta manera) i un component tècnic (els algoritmes, l'arquitectura i el codi executable).
-És important ressaltar que els drets d'autor protegeixen l'expressió literal d'una idea (en el nostre cas, el codi) però no les idees o algoritmes que hi ha al darrere.
-Els drets d'autor concedits a l'autor de forma exclusiva solen vèncer als 70 anys de la seva mort, moment en què l'obra passa a ser de domini públic i, per tant, ja no està lligada per cap dret exclusiu.
-A partir d'aquest moment, qualsevol la pot reproduir, distribuir o fer-ne obres derivades sense cap mena de restricció.
-El domini públic ha tingut un paper molt destacat en l'avenç de la cultura, però no ofereix totes les proteccions jurídiques que el programari lliure necessita, atès que no permet garantir que les modificacions que es facin a un programa siguin també lliures.
-Cada país ha anat desenvolupant la seva pròpia legislació de drets d'autor amb els seus propis matisos, però des de fa uns anys aquests drets s'han anat homogeneïtzant gràcies a diversos convenis internacionals.
-A nivell global, ja el 1886 es va firmar el conveni de Berna, ampliat l'any 1971 per la convenció de París.
-Més recentment, l'ADPIC (en el marc de l'OMC) el 1994 i els acords de l'OMPI del 1996 es van aprovar per adequar -discutiblement- aquest marc legal al món globalitzat i a la Societat de la Informació.
-Mercès a aquests acords, qualsevol creador d'una obra obté, de forma automàtica, uns drets d'autor sobre la mateixa, drets que són vàlids i defensables en gairebé tots els països del món.
-Això, però, no impedeix que hi hagi diferències, sobretot entre el model de copyright anglosaxó, basat en títols de propietat, i el de drets d'autor continental, que defensa més la persona de l'autor i els seus drets personals.
-Atès que la llei no estipula una fórmula legal específica per a la cessió dels drets d'autor a tercers, l'autor d'un programa informàtic i titular dels drets utilitza habitualment un contracte que determina la manera en què l'autor cedeix -normalment de manera no exclusiva- part dels seus drets a l'usuari (còpia, modificació, distribució, etc.
-), determinant també en quines condicions pot utilitzar-lo i detallant l'àmbit dels drets i obligacions associats.
-Aquest contracte rep el nom de “llicència de programari”.
-Quan la llicència no es negocia directament entre el proveïdor i l'usuari d'un programa informàtic, per assegurar-se que l'usuari en té coneixement i n'accepta les condicions els proveïdors l'obliguen a acceptar-la durant la instal·lació del programa -llicència click-wrap- o fins i tot, de vegades, en alguns programes de propietat, pel sol fet d'obrir el sobre o paquet que conté el programa -llicència shrink-wrap-.
-La validesa legal d'aquests dos processos encara es discuteix avui en dia.
-En el món del programari de propietat, pràcticament cada fabricant de programari ha creat la seva pròpia llicència adequada al programari en qüestió i al model de negoci del fabricant.
-En el món del programari lliure existeix també una gran diversitat de llicències.
-Segons les estadístiques de SourceForge , un dels repositoris més importants de projectes lliures a Internet, el juliol del 2004 un 70% dels projectes acollits utilitzaven una llicència GPL (General Public License), un 11% una llicència LGPL (Lesser General Public License) i un 7,1% una llicència del tipus BSD.
-Com es pot veure, l'ús i extensió de les llicències GPL i LGPL creades per la Free Software Foundation és aclaparador .
-En termes generals, en el món del programari lliure, tot i que hi ha moltes llicències en distingim tres models principals, que es diferencien en la forma i condicions en què els propietaris dels drets en cedeixen una part als usuaris: 
-Llicències amb copyleft. Són aquelles que cedeixen els drets de còpia, distribució i modificació del programa sota les condicions que defineixen al programari lliure però que, a més, exigeixen que qualsevol versió modificada hereti el mateix tipus d'obligacions i drets que tenia el programa original.
-Aquestes llicències s'anomenen sovint “víriques” per l'efecte de contagi que tenen sobre les obres derivades.
-El seu objectiu és garantir que qualsevol usuari conservi en el futur les llibertats originals que defineixen al programari lliure, i aquest futur inclou les obres derivades del programari original.
-Per exemple, el nucli del sistema operatiu Linux està alliberat sota aquesta llicència, garantint així que qualsevol empresa o usuari que hi faci modificacions i les distribueixi estigui obligat a publicar-ne el codi font, contribuint d'aquesta manera, amb les seves millores, al creixement del Linux.
-La llicència copyleftper antonomàsia és la General Public License4 (coneguda pel seu acrònim GPL), formulada per la Free Software Foundation, i que gaudeix d'una gran popularitat.
-És una llicència que cobreix molt detalladament els diferents aspectes del programari.
-És possible consultar una recopilació, llarga però exhaustiva, de les preguntes més freqüents sobre la GPL amb llurs respostes corresponents .
-Llicències de codi obert o permissives. Són les que cedeixen l'ús del programa sota les condicions que defineixen al programari lliure però que no obliguen necessàriament a fer públiques les millores que s'hagin realitzat al codi.
-Amb aquesta mena de llicències, més permissives, algú pot usar el nostre programa informàtic lliure, ampliar-lo i crear un producte de propietat sense compartir les millores introduïdes amb la resta de la comunitat.
-Un exemple d'això és el cas de Netscape, que va crear el seu producte comercial de propietat Netscape Directory Server basant-se en el codi font del servidor de programari lliure de la Universitat de Michigan sense necessitat d'haver de publicar les millores , amb la qual cosa només els clients de Netscape podien beneficiar-se'n malgrat que l'empresa havia usat un programa lliure.
-En la comunitat de programari lliure trobarem programadors que argumenten que les llicències permissives donen més llibertat als creadors de programari ja que no imposen cap restricció, atès que fins i tot permeten crear programari de propietat a partir d'un projecte lliure, mentre que d'altres argumenten que aquesta mena de llicències resten llibertat als usuaris en no garantir que les versions futures siguin lliures.
-La llicència BSD és una de les llicències més comunes d'aquesta mena.
-El més destacable és que permet l'ús i explotació de l'aplicació, en forma de programa o codi, sense cap mena de limitació.
-Protegeix l'autor, però, dels usos que tercers puguin fer del seu nom per tal de donar publicitat al producte, i sovint obliga a donar crèdit als autors originals.
-Llicència dual. Es basa en què l'autor cedeix la seva creació sota dues llicències diferents segons l'ús que es pensi fer del seu programari i les llibertats i obligacions que es desitgin adquirir.
-Sota aquest model, una empresa pot oferir una versió lliure del seu programa i una altra versió amb condicions més favorables per a les necessitats dels clients que vulguin treballar fora del model del programari lliure.
-Aquest model és utilitzat per força empreses, ja que permet oferir els productes de forma lliure i no lliure segons les necessitats de cada client.
-Una de les empreses pioneres en l'ús del sistema de llicència dual és Sleepycat Software .
-El producte Berkeley DB està disponible sota una llicència lliure, que, lògicament, garanteix l'accés al codi font sempre que l'usuari accedeixi a fer públic el codi font de les aplicacions que desenvolupi utilitzant aquest producte.
-Com qualsevol llicència lliure, Sleepycat Software permet que els qui s'acullin a l'opció de llicència lliure venguin productes basats en el seu propi programari .
-Aquesta llicència permet que el programari de Berkeley DB se segueixi estigui utilitzant en milers d'aplicacions lliures, ja que de fet és un programari lliure si nosaltres desenvolupem també programari lliure.
-En canvi, si el que desitgem és desenvolupar una aplicació utilitzant Berkeley DB per a una distribució de propietat, el codi de la qual no volem llicenciar com a programari lliure, hem d'adquirir una llicència tradicional del producte Berkeley DB, que té un cost de diversos milers de dòlars.
 A diferència dels drets d'autor, que protegeixen la implementació d'una idea, les patents de programari permeten protegir idees i algoritmes.
-Les patents són la concessió d'un monopoli sobre una invenció durant un període limitat de 20 anys, després del qual tothom en pot fer ús.
-Originàriament van ser creades per tal que les persones poguessin recuperar les grans inversions realitzades en investigació a canvi d'avançar al públic els detalls de la seva creació, produint així un benefici social.
-Bàsicament, el monopoli cobreix la fabricació, distribució, comercialització i utilització del procés o producte patentat; això, aplicat al programari, impedeix la creació de programes semblants, encara que no siguin iguals.
-A diferència dels drets d'autor, que es concedeixen de forma automàtica i gratuïta, les patents s'han de sol·licitar expressament a l'Oficina de Patents competent (país per país, o a nivell global) i això fa que tinguin un cost econòmic molt elevat, gairebé prohibitiu, de fet, per a petites empreses i individus.
-El 1981, els Estats Units van ser el primer país del món que va permetre la possibilitat de patentar el programari.
-Fins llavors, es considerava que el programari no es podia patentar.
-De fet, la llei actual a Europa (del 1973) impedeix que es patentin els programes informàtics “purs” (és a dir, que no estan associats a un procés material d'aplicació industrial).
-Això, però, no ha impedit que les oficines europees de patents hagin atorgat moltes patents sobre programari simple, en considerar que la interacció amb l'ordinador és una aplicació tècnica suficient.
-Actualment, a la Unió Europea encara s'està debatent un canvi de llei per permetre i reconèixer en la pràctica les patents de programari en si.
-El concepte de patent, aplicat als programes d'ordinador, no té cap sentit.
-D'una banda, en la indústria del programari poden no existir inversions grans en temps, ni diners en investigació, sinó la simple creació de productes i, per tant, no hi ha raó retributiva per concedir una patent.
-De l'altra, la innovació informàtica és acumulativa i basada en experiències i informació prèvies; mancaria, per tant, el requisit d'“inventivitat”.
-Avui dia ja hi ha els drets d'autor, les llicències de programari, les marques i el secret industrial, que representen mecanismes més que vàlids per protegir els creadors.
-Permetre que els programes informàtics es patentin és tan absurd com permetre patentar les fórmules matemàtiques bàsiques; és obrir la porta a la patent d'algoritmes universals i bàsics, que poden formar part de qualsevol programa.
-Amb les patents de programari es fa realitat l'establiment d'un impost encobert per treballar amb les noves tecnologies; solament les empreses més grans podran pagar-lo o intercanviar patents en el joc de llicències creuades de patents.
-Així, per exemple, tenim el cas de British Telecom, que afirmava tenir una patent sobre el concepte d'enllaç, tan bàsic en la pròpia web o els sistemes de documentació, o el cas d'Amazon, que va patentar el concepte de compra amb un sol clic ("1click").
-Aquests són només dos casos representatius, però als Estats Units hi ha centenars de patents concedides sobre algoritmes i idees bàsiques en informàtica.
-Les patents permeten que les empreses amb més recursos econòmics i legals estableixin barreres d'accés a les noves tecnologies minant la innovació d'altres empreses; augmenten innecessàriament els costos de desenvolupament de programari i creen una incertesa a les empreses desenvolupadores, ja que en qualsevol moment poden infringir una patent sense saber-ho.
-A més, les patents existents no revelen el codi font del programa, violant un aspecte essencial de la patentabilitat i la idea que la societat pugui beneficiar-se de la invenció.
-El moviment del programari lliure i una part molt important de la indústria del programari estan en contra de la concessió de patents de programari pels motius exposats.
-En aquest sentit, des del col·lectiu Proinnova s'han organitzat accions de protesta contra les patents de programari i es treballa per conscienciar usuaris, empreses i administracions del problema que suposen.
-Les marques són una forma de protecció legal de la imatge i reputació d'un negoci, que donen al titular l'ús exclusiu d'un nom o logotip (gràfic) de forma il·limitada en relació amb una categoria determinada de productes.
-Les marques solen justificar-se perquè un client pugui identificar, de forma clara, que un producte o servei prové d'un fabricant determinat.
-Tenen un cost econòmic raonable, es renoven cada 5 o 10 anys, i s'han de sol·licitar a l'oficina de marques corresponent a la zona de comercialització del producte.
-Les marques poden usar-se en el món del programari lliure per protegir un servei o producte i fins i tot un grup de desenvolupament.
-Per exemple, podem crear una aplicació, distribuir-la amb llicència lliure, fins i tot de tipus copyleft, i registrar com a marca el nom del producte.
-La llicència lliure d'ús no inclou l'ús de la marca. D'aquesta manera concedim totes les llibertats del programari lliure, però podem impedir que terceres parts modifiquin i distribueixin el programa -potser de menor qualitat - amb la mateixa marca.
-Protegim així la inversió realitzada per crear i donar a conèixer el nostre producte.
-La marca Linux®, per exemple, és propietat de Linus Torvalds, la qual cosa li permet tenir un control sobre l'ús del nom del nucli del sistema operatiu GNU/Linux, que ell mateix va iniciar a començaments dels anys 90.
-El secret comercial és una altra forma de protecció legal que s'utilitza habitualment en la indústria per protegir el programari.
-El secret comercial impedeix la divulgació d'informació (econòmica, tècnica, etc.
-) que sustenta l'avantatge competitiu de les empreses.
-El secret es pot forçar de diferents maneres, però una d'habitual és mitjançant els contractes de confidencialitat (amb clients, consultors i empleats).
-Google, per exemple, usa el secret comercial per no revelar com funcionen els seus algoritmes de recerca, classificació i puntuació de les pàgines.
-Però el secret va en contra de l'esperit de compartició d'informació que impera en el programari lliure, i és incompatible amb l'obertura del codi.
-Els acords de confidencialitat van enutjar especialment Richard Stallman ja els anys .
-Aquesta forma de protecció ha de ser tinguda en compte a les empreses els empleats de les quals participen en el desenvolupament de programari lliure, i en la provisió del codi font del programari: en molts casos, es pot considerar que el codi font engloba els secrets de negoci, i en aquest cas no es pot protegir la informació revelada indirectament en una distribució lliure.
-Un aspecte que preocupa a usuaris i empreses és la garantia que ofereix un determinat programa informàtic, és a dir, qui es fa responsable si el programa no funciona correctament i qui en solucionarà els possibles problemes.
-Qualsevol usuari sap, per experiència pròpia, que els programes no són perfectes.
-Els programes tenen errors. Quant millor sigui el procés d'enginyeria del programari que s'utilitza i millors els programadors involucrats en el seu desenvolupament, menys errors tindrà.
-El programari té un mitjana de 0,150 errors per cada 1.
-000 línies de codi12 ; si tenim en compte que un producte com l'OpenOffice 1.
-0 té aproximadament 7 milions de línies de codi, l'aritmètica és senzilla.
-Microsoft, per exemple, va admetre que va treure el Microsoft NT 4.
-0 al mercat amb més de 60.000 errors registrats , la majoria pendents de corregir.
-La qualitat del programari és una preocupació i es dediquen molts esforços a millorar-la, però el programari gairebé mai no és perfecte.
-Per a sorpresa de molts, la pràctica totalitat de les llicències de programari de propietat tenen clàusules específiques en què es declina qualsevol responsabilitat i garantia sobre el programari, es limita el cost de qualsevol possible indemnització i es rebutja qualsevol possible responsabilitat causada per un error del programa.
-És habitual trobar usuaris que creuen que el programari de propietat té garantia pel simple fet que algú ven el producte: la realitat és molt diferent, i una simple lectura de les llicències de programari aclareix aquest punt: la majoria de llicències de programari de propietat es comprometen simplement a reemplaçar el suport físic del programa (habitualment un CD-ROM o DVD) i els manuals del mateix si estan malmesos.
-Per la seva banda, totes les llicències de programari lliure tenen clàusules mitjançant les quals declinen qualsevol mena de garantia sobre el programari i limiten qualsevol indemnització.
-Podem afirmar que pràcticament cap mena de programari, sigui lliure o de propietat, inclou garantia.
-A Europa, les lleis de protecció dels consumidors imposen obligacions de qualitat i funcionament adequats o “satisfactoris” dels productes comercialitzats als consumidors (“adequat” no significa “lliure d'errors”), que en general el proveïdor no pot limitar.
-Es discuteix, però, si aquestes proteccions s'apliquen al programari lliure, entre altres motius pel seu caràcter gairebé de donatiu.
-Per pal·liar aquestes “llacunes” i la desprotecció de l'usuari, algunes empreses comercials de distribució de programari lliure, com ara RedHat, ofereixen garanties de funcionament, correcció d'errors, suport i manteniment als seus clients.
-La incertesa que crea el problema de les patents als Estats Units, on rutinàriament es concedeixen patents per invencions trivials, i els possibles judicis per violació de drets d'autor són temes que preocupen en especial a empreses i governs, i que en alguns casos poden frenar l'adopció de solucions basades en programari lliure.
-A mesura que el programari lliure guanyi en adopció i més empreses facin negoci implementant sistemes lliures, augmentarà el risc que apareguin fabricants de programari de propietat que vagin a judici per reclamar possibles violacions de drets d'autor o patents, i no solament als distribuïdors del programari, sinó també als seus usuaris.
-Alguns distribuïdors de solucions Linux, com ara Novell o Hewlett Packard, proveeixen protecció legal als usuaris de les seves solucions de programari.
-RedHat arriba encara més lluny, amb el compromís de reemplaçar qualsevol programari, inclòs en la seva distribució14 , que sigui objecte de problemes legals.
-També hi ha empreses com ara Open Source Risk , que ofereixen un assegurança en cas de qualsevol problema legal que pogués derivar-se de l'ús de programari lliure.
-Per la seva banda, la comunitat de programari lliure ha reaccionat i ha començat a organitzar col·lectes de fons  per poder defensar-se legalment.
-Malauradament, hi ha empreses que tenen mitjans suficients per allargar els judicis durant anys i crear una erosió mediàtica, i econòmica, al programari lliure.
-Internet, des dels seus inicis fins a mitjans dels noranta, va representar la panacea del món llibertari: una xarxa d'àmbit mundial, sense regular, on imperava un codi ètic implícit de bon comportament17 que en general tothom respectava.
-El ciberespai era bàsicament un mitjà autoregulat molt influenciat per la comunitat científica i universitària.
-Durant força temps va representar un espai global amb un control nul per part de les autoritats.
-Molts van pensar que, pel fet de tractar-se d'un espai que abastava més enllà de fronteres de països, quedaria fora de tota regulació.
-Amb la popularització d'Internet i l'arribada massiva d'usuaris que no havien nascut ja en aquella cultura inicial amb un codi ètic implícit es van produir els primers canvis.
-L'aparició del Napster va ser un fenomen que va revolucionar la Xarxa i va enutjar empreses molt poderoses de fora del ciberespai.
-Napster va introduir la idea, i també el programari necessari, que la Xarxa podia ser utilitzada per a l'intercanvi de contingut digital, inicialment música.
-Un cop la música es troba en format digital (en un fitxer), el cost de transferència és pràcticament nul.
-La reacció immediata de les discogràfiques i d'alguns grups musicals fou perseguir legalment el fenomen de la forma més contundent possible.
-Han estat nombrosos els casos d'empreses i usuaris que han estat demandats per intercanvi il·legal de fitxers.
-No obstant això, el fenomen, en comptes de disminuir, va créixer i es va expandir a nous tipus de continguts digitals, com ara llibres, pel·lícules, o programari.
-Aplicacions com ara Kazaa18 , Emule , o Direct Connect20 han posat a l'abast de l'usuari eines d'intercanvi de fitxers en el que es coneix com a xarxes entre iguals o P2P (peer-to-peer).
-El fenomen Napster va ser la constatació final que alguna cosa havia canviat.
-Els formats d'alta compressió de vídeo i àudio, les gravadores de CD-ROM, i més tard de DVD, de baix cost, l'abaratiment dels suports multimèdia verges i la popularització de la connexions de banda ampla a Internet, són fenòmens que, combinats, han posat en mans dels usuaris la facilitat de crear, copiar, i transmetre continguts digitals amb un cost pràcticament nul.
-Napster, a més, va aportar un sistema de distribució de continguts musicals mitjançant el qual els propis usuaris podien publicar i intercanviar continguts.
-Encara que una gran part d'aquests continguts es copiaven il·legalment, l'amenaça més profunda era l'aparició d'un nou model de distribució en què les distribuïdores no eren necessàries.
-Per frenar aquest fenomen, les discogràfiques, la indústria cinematogràfica i els fabricants de maquinari i programari estan treballant en la creació de sistemes de gestió de continguts digitals, que són un conjunt de tecnologies que permeten al titular dels drets d'autor tenir un control sobre la manera en què les seves obres es distribueixen a través de mitjans digitals, tant Internet com suports com el CD-ROM o el DVD.
-Mentre que els drets d'autor proporcionen protecció legal als autors, els sistemes de gestió de continguts digitals proporcionen proteccions basades en solucions tecnològiques.
-Existeixen solucions simples, des del Content-Scrambling System, que impedeix que els DVD comprats en una zona geogràfica del món es puguin utilitzar lliurement en una altra, fins a sistemes coneguts com la "informàtica de confiança"22 , una proposta centrada a incrementar la seguretat dels ordinadors personals que consisteix en afegir proteccions criptogràfiques al contingut digital i identificar el client d'una forma precisa.
-En el moment d'escriure aquestes línies, tots els sistemes de gestió de continguts digitals han fracassat en aturar la còpia il·lícita de continguts i han ocasionat inconvenients a usuaris legítims.
-A nivell mundial, s'han promulgat noves lleis per protegir aquests mitjans tecnològics de protecció de les obres i la informació utilitzada per a la gestió dels drets (Rights Management Information).
-És il·legal eludir les proteccions tecnològiques eficaces i eliminar la RMI, i també ho és promocionar, comercialitzar o distribuir sistemes tecnològics la finalitat dels quals sigui aquesta eliminació.
-Dins del món del programari lliure, aquests sistemes es veuen com una amenaça a la llibertat personal dels usuaris, ja que creen barreres i inconvenients en la distribució lícita de programari lliure23 i estableixen una situació de monopoli potencial en què les tecnologies per a la distribució de continguts estan en mans d'uns pocs.
-De la mateixa manera, la utilització no solament de diversos programes d'ús doble (per exemple, per a la còpia o gravació de CD), sinó també de certs programes lliures, podria considerar-se una infracció potencial d'aquestes noves lleis.
-Algunes de les idees del moviment del programari lliure, com ara usar els drets d'autor per garantir permís a tercers per modificar i distribuir obres, han inspirat moviments semblants entre autors de llibres, articles periodístics, música o vídeo.
-Una de les iniciatives més populars és Creative Commons24 , una organització sense ànim de lucre que ha estat creada perquè els seus impulsors consideren que la legislació actual de drets d'autor no s'ajusta a les necessitats dels nostres dies i és massa restrictiva.
-L'avanç de la tecnologia en els darrers anys permet que, amb equips de baix cost, qualsevol persona pugui crear, combinar i distribuir, i amb un cost menyspreable (a Internet per exemple), continguts digitals.
-Són tremendament populars els diaris interactius personals (weblogs), que aporten gran contingut a la Xarxa, així com escriptors i artistes en general que distribueixen les seves obres a través d'Internet per la difusió que els ofereix.
-No obstant això, les facilitats de la tecnologia contrasten amb la rigidesa del sistema jurídic.
-Per a molts creadors, els drets d'autor no són un mecanisme adient per explotar les seves creacions ja que no contemplen un sistema que permeti, de forma automàtica, certs usos de les seves obres, i exigeixen sempre el permís de l'autor.
-Així, si estem realitzant una creació combinant creacions de tercers, com per exemple un article, hem de demanar permís a l'autor original.
-Això estableix un entorn on, per defecte, tots els drets d'una obra estan reservats, i crea una situació en què la creativitat i la innovació en base a la compartició d'obres i idees tornen a ser realment difícils o limitades.
-Addicionalment, el període que ha de transcórrer perquè una obra passi al domini públic, generalment 70 anys des de la mort de l'autor (variable segons els països), sembla excessiu en la nova societat de la informació, marcada per ritmes cada cop més accelerats.
-Això fa que hi hagi moltíssimes obres que estan blocades pels drets d'autor i caldrà esperar anys fins que puguin convertir-se en un bé comú i passar al domini públic.
-L'objectiu de Creative Commons és crear un ecosistema de contingut digital obert on els autors puguin cedir part dels drets sobre les seves obres i retenir només els drets que realment els interessen, permetent així augmentar el nombre de creacions disponibles lliurement.
-Creative Commons ofereix a través del seu web una pàgina25 que permet als creadors de les obres triar, mitjançant dues preguntes molt senzilles, què volen permetre que terceres persones facin amb les seves obres i quins drets desitgen conservar.
-La primera pregunta fa referència a si volem permetre usos comercials de les obres, és a dir, si permetem que qualsevol pugui modificar, distribuir o reproduir l'obra amb qualsevol finalitat, o només quan aquesta finalitat no sigui comercial.
-La segona pregunta fa referència a si volem que terceres persones puguin o no modificar l'obra i, si ho fan, si volem obligar-los a que les versions modificades hagin de ser compartides (tipus copyleft).
-Amb aquestes dues preguntes, la pàgina web ens crea una llicència, igual com ha fa el programari lliure, que ens permet cedir els drets de la nostra creació sota les condicions que haguem especificat.
-Una vegada realitzada la nostra selecció obtenim tres representacions de la nostra solució: una en llenguatge fàcilment comprensible, una altra en llenguatge jurídic (la llicència o contracte) i una altra en llenguatge informàtic (en forma de codi web).
-A més, al web de Creative Commons hi ha un cercador que permet trobar milers de creacions digitals que han estat alliberades fins ara, i que inclouen des de cançons de Gilberto Gil fins al fons digital de la cadena pública BBC.
-Capítol 4 - La producció del programari lliure El model de producció del programari lliure ha demostrat tenir un èxit considerable i ser altament productiu en el desenvolupament de programes tan complexos com ara el Linux o l'Apache.
-Més enllà del programari, projectes com ara la Wikipedia o l'Open Directory2 mostren que aquest model és exportable a altres tipus de creacions intel·lectuals.
-Motius que impulsen el desenvolupament del programari lliure 
-A primera vista, pot semblar sorprenent que un programari que ha requerit milers d'hores de desenvolupament es distribueixi de forma lliure, i sense cap cost, a través de la Xarxa i altres mitjans, tant físics com digitals.
-Els incentius i motivacions que poden portar a una persona a contribuir al desenvolupament del programari lliure són variats, i en general, al contrari del que es podria pensar, els de caràcter econòmic no són els principals.
-Diversió. Linus Torvalds explica que, com molts altres hackers, va començar a treballar en el desenvolupament de Linux simplement per la diversió que implicava fer quelcom interessant.
-Un eix central en la cultura hackerha estat sempre fer coses enginyoses que representen un repte, a més de ser una excel·lent manera de millorar el nostre coneixement.
-Enfrontar-se a un repte i trobar-hi una bona solució produeix un estat de satisfacció semblant al què experimenta un científic quan realitza un descobriment.
-Reputació. La cultura del regal sempre ha tingut un paper important en les societats on hi ha hagut una certa abundància de béns i ha permès teixir enllaços socials més forts; en el programari lliure, tal com descriu Eric S.
-Raymond , l'economia del regal en aquest entorn té com a objectiu el guany de reputació entre els altres membres de la comunitat.
-Convicció ideològica. Quan Richard Stallman va crear la Free Software Foundation el 1984 i va iniciar el projecte GNU, la seva principal motivació era la creença que el programari lliure era necessari per preservar les llibertats dels usuaris i era bo per a la societat.
-Encara que no sempre és aquesta la motivació principal que impulsa una persona a col·laborar en un projecte lliure, no hi ha dubte que és un dels factors que hi influeixen enormement.
-Resoldre un problema propi. Si un desenvolupador de programari té una necessitat determinada que no queda coberta per cap programa, és probable que escrigui el programa que necessita o, si troba un problema en una aplicació de tercers que vulgui resoldre, que col·labori en el projecte solucionant aquell problema concret.
-Aprendre. El món del programari lliure és un excel·lent camp d'aprenentatge per als professionals de les tecnologies de la informació.
-Ofereix la possibilitat d'estudiar el codi font de milers de programes informàtics, participar-ne en el desenvolupament i correcció d'errors, o simplement millorar els coneixements generals seguint l'evolució de les diferents comunitats.
-Part d'un projecte empresarial o universitari. Són habituals els casos en què una empresa -com per exemple RedHat o Novell- té desenvolupadors que col·laboren en un projecte lliure, o una universitat que ha aconseguit suport financer per desenvolupar o millorar un projecte lliure.
-Aquests desenvolupadors, contribuint al programari lliure, estan realitzant la tasca per la qual reben una remuneració.
-En el cas de les empreses, és habitual contractar desenvolupadors que ja formaven part de la comunitat, és a dir, voluntaris que ja estaven contribuint al projecte i que ara s'hi podran dedicar a temps complet com a part de la seva feina.
-Baix cost d'oportunitat. El programari lliure té unes barreres d'entrada molt baixes i ofereix un conjunt de recursos molt amplis que fan que, efectivament, el cost d'oportunitat sigui realment baix; qualsevol persona amb un PC i una connexió a Internet pot iniciar o contribuir a un projecte de programari lliure.
-Reputació. El programari lliure aplica el model acadèmic tradicional de reconeixement de la feina per part d'altres participants de la comunitat.
-D'aquesta manera s'obté reconeixement del capital intel·lectual del participant, cosa que es pot traduir en oportunitats laborals.
-Molts dels desenvolupadors més destacats han rebut ofertes laborals de RedHat, Novell o Apple, entre d'altres, per treballar en projectes relacionats amb la seva activitat en el programari lliure.
-Per exemple, un dels líders del sistema operatiu lliure FreeBSD, Jordan Hubbar, fou contractat per Apple per treballar en el sistema operatiu per a Mac basat en FreeBSD.
-Tots els estudis empírics que s'han realitzat a desenvolupadors de programari lliure demostren que sol ser una combinació d'aquests motius el que els impulsa a col·laborar en comunitats de programari lliure.
-L'any 2002, el Boston Consulting Group va realitzar un estudi6 a 526 desenvolupadors de programari lliure per conèixer les motivacions per les quals contribueixen a aquests projectes.
-L'estudi afirma que les principals són l'estimulació intel·lectual, la millora dels coneixements i la convicció que el programari lliure és convenient.
-El 98% dels entrevistats eren homes, i el 70,4% tenien entre 22 i 37 anys d'edat.
-Quant a llur ubicació geogràfica, el 48% vivien als Estats Units i el 42,2% a Europa.
-Durant l'any 2003, Karim R. Lakhani i Robert G. Wolf van realitzar un estudi basat en una enquesta via web a 684 desenvolupadors de programari lliure de 287 projectes diferents.
-Segons les conclusions de llur investigació, el perfil del típic programador és un home (97,5%) amb una mitjana d'edat de 30 anys.
-L'estudi conclou que millorar les habilitats com a programador i l'estimulació intel·lectual són els motius més habituals per escriure programari lliure, destacant que aproximadament el 40% dels enquestats contribuïen al programari lliure com a part de la seva feina.
-El món del programari lliure ha desenvolupat i adaptat eines col·laboratives que permeten que grups de persones treballin de forma conjunta en el desenvolupament de projectes a través d'Internet.
-La web ha tingut un paper central en el creixement d'Internet i, conseqüentment, en la difusió del programari lliure.
-Tots els projectes de programari lliure tenen un web que serveix de punt d'inici i trobada dels recursos que usuaris i desenvolupadors necessiten.
-Alguns projectes tenen llocs web propis i d'altres utilitzen repositoris públics com ara SourceForge.
-Cada projecte sol tenir una o diverses llistes de distribució on es discuteix la direcció que pren el projecte, es plantegen possibles solucions a problemes complexos, i es prenen decisions sobre el procés de desenvolupament del programari.
-També és habitual disposar de canals de xat, que són molt més immediats i tenen una interactivitat superior a la del correu electrònic, i que solen utilitzar-se per resoldre problemes molt concrets de forma ràpida.
-El codi font del projecte s'ubica en un servidor centralitzat, el qual gestiona un programari de control de versions.
-Aquests sistemes de control de versions funcionen com la columna vertebral del projecte: són sistemes que assenyalen les diferents versions del codi font per identificar-les posteriorment, faciliten la feina en paral·lel de grups d'usuaris, indiquen l'evolució dels diferents mòduls del projecte, i disposen d'un control detallat dels canvis que s'hi han realitzat.
-Totes aquestes funcions són indispensables durant la vida del projecte.
-Aquests sistemes no solament tenen aplicació en el desenvolupament del programari, sinó que, a més, són àmpliament utilitzats en la creació de documentació, llocs web i, en general, qualsevol projecte col·laboratiu que requereixi treballar amb equips de persones de forma simultània.
-El CVS (Concurrent Versions System) és el programa més utilitzat en el món del programari lliure per al control de versions de programari, i l'utilitzen projectes com ara el Mozilla, l'OpenOffice.
-org, el KDE o el GNOME, per esmentar-ne només uns quants. 
-Qualsevol usuari pot accedir al servidor on es troba el codi font d'un projecte, seguint la idea que tothom pot veure el codi, però només uns pocs disposen de privilegis per a l'addició de nou codi o la modificació de l'existent.
-Un aspecte central en qualsevol projecte de programari és la gestió i el seguiment dels errors.
-Quan Netscape, el 1998, va alliberar el codi del Mozilla es va trobar amb la necessitat de tenir una aplicació de gestió d'errors via web que permetés la interacció entre usuaris i desenvolupadors.
-Van decidir adaptar a les necessitats d'un projecte obert l'aplicació que utilitzaven internament a les necessitats d'un projecte obert, i així va néixer el Bugzilla .
-Inicialment va ser el sistema de gestió i seguiment d'errors del projecte Mozilla, però amb el temps ha estat adoptat per molts projectes lliures, incloent el KDE, el GNOME, o l'OpenOffice.
-org, entre d'altres. El Bugzilla permet als usuaris enviar errors facilitant-ne la classificació, l'assignació a un desenvolupador per tal que el resolgui, i tot el seguiment de les incidències relacionades.
-Els projectes lliures tendeixen a crear documentació amb manuals d'ús i instal·lació o recopilatoris de preguntes i respostes més freqüents.
-Els sistemes Wiki i els seus derivats s'han convertit en eines molt populars per facilitar l'edició col·laborativa de contingut obert; aquestes eines permeten que els usuaris creïn i corregeixin qualsevol pàgina en un lloc del web, incentivant així la participació dels usuaris.
-Aquest és el mateix concepte i sistema que s'utilitza per produir l'enciclopèdia Wikipèdia.
-Totes aquestes eines, juntament amb el talent dels membres dels diferents projectes, és el que fa possible la producció de programari lliure.
-El 1997, Eric S. Raymond publicà un assaig, amb el títol La catedral i el bazar , que descrivia dos estils de desenvolupament en les comunitats de programari lliure.
-Tot i que es tracta d'un assaig i no està acompanyat de cap evidència empírica, i que ha rebut algunes crítiques per la seva falta de precisió, és cert també que s'ha convertit en un referent per a qualsevol que pretengui entendre com funciona l'organització de projectes lliures.
-Raymond defensa que hi ha dos models d'organització de projectes lliures: la catedral i el basar.
-En el model “catedral” hi ha una jerarquia molt definida quant a la responsabilitat de cada àrea del projecte, i habitualment l'utilitza un grup reduït de persones.
-Aquest model té paral·lelismes en la forma en què es construïen catedrals en l'Edat Mitjana, ja que la construcció era un procés molt planificat.
-En el model “basar”, el desenvolupament es realitza entre molts desenvolupadors sense una jerarquia clara, de la mateixa forma que estan organitzats els basars a l'Orient.
-Encara que ambdós models no són analogies perfectes per a tots els projectes de programari lliure, sí que defineixen dues estructures comunes, tot i que, lògicament, molts projectes són combinació d'ambdues en més o menys grau.
-De vegades podem tenir la impressió que hi ha certa desorganització en els projectes de programari lliure, atesa la forma tan oberta en què es gestionen.
-La realitat és ben diferent, ja que hi ha tasques molt definides amb els seus respectius responsables.
-Encara que s'hi respira un ambient de cooperació, la majoria de projectes combinen contribucions d'empreses, voluntaris i institucions que, a més, representen sensibilitats diferents.
-En els projectes petits hi ha un únic responsable de projecte.
-Es pot arribar a aquesta responsabilitat si s'és la persona que va fundar el projecte o si el fundador va passar el testimoni de la responsabilitat a una altra persona amb el vist-i-plau de la resta dels integrants del projecte.
-En projectes de gran envergadura, com per exemple Mozilla.org, la presa de decisions es distribueix entre un conjunt de persones11 . A cadascuna d'elles se li assigna un mòdul sobre el qual té potestat.
-Els responsables del projecte prenen decisions com ara si s'ha d'acceptar o no una contribució externa concreta a un projecte -com ara la correcció d'un error-, quan s'han d'alliberar les diferents versions del programari, o decidir quins errors és imprescindible corregir abans d'alliberar una nova versió.
-Alguns projectes han formalitzat una mica més el procés de presa de decisions.
-El projecte Apache compta amb l'Apache Group, que està format per desenvolupadors que hi han col·laborat durant un període llarg de temps i que s'escullen per votació per formar part del nucli de persones que prenen les decisions.
-El projecte FreeBSD té també un consell format per desenvolupadors que han participat activament en el projecte, i que són els responsables de les decisions més importants.
-Com es pot veure, s'aplica un sistema meritocràtic mitjançant el qual els responsables són escollits segons la feina que han aportat al projecte.
-Abiword és un projecte que té com a objectiu produir un processador de textos lliure per a Unix, Linux, Mac i Windows.
-Durant els dos primers anys va ser desenvolupat per SourceGear, en col·laboració amb la comunitat, fins que l'any 2000 va passar a ser un projecte mantingut exclusivament per una comunitat de voluntaris liderada per Dom Lachowicz .
-Lachowicz fou elegit responsable de projecte per acord de tots els integrants.
-Actualment existeix, a més, un responsable de la versió per a Linux, un altre per a la de Mac, i un altre per a la de Windows (que resulta ser l'autor d'aquestes línees), que s'encarreguen d'assegurar que les versions respectives van incorporant el codi necessari per a cada plataforma.
-Avui dia, Abiword compta amb 12 desenvolupadors considerats principals i, des dels seus inicis, 250 voluntaris hi han col·laborat millorant l'aplicació així i també traduint-la a més de 50 llengües.
-Els usuaris i desenvolupadors d'Abiword es comuniquen diàriament a través de les diferents llistes del projecte i del canal Abiword del servidor de xat gimp.
-org. Setmanalment es recopila el més important que s'ha esdevingut en el desenvolupament de l'aplicació, i aquest resum es publica en un butlletí de notícies15 . Aquestes notícies de caràcter setmanal són molt útils per poder continuar estant al dia en el desenvolupament del projecte en èpoques en què hom no disposa del temps necessari per poder llegir els missatges de la llista i anar apareixent pel canal de xat.
-Anualment, una part del grup de desenvolupadors principals i entusiastes d'Abiword es reuneixen en la GUADEC , que és la conferència anual de programadors de GNOME i que serveix de marc de trobada.
-En aquesta reunió presencial se solen acordar les funcionalitats que s'inclouran en les pròximes versions del projecte en base a les idees que els usuaris i desenvolupadors han anat comentant.
-La direcció que prendrà el projecte en els mesos següents es recull en el full de ruta , que també indica qui serà el responsable d'implementar cada una de les noves funcionalitats.
-L'Abiword, com altres projectes, té sempre dues versions de l'aplicació: una estable i una altra de desenvolupament.
-La versió estable és la que està pensada per als usuaris; els errors nous es van corregint a mesura que apareixen però no s'hi afegeix cap funcionalitat nova.
-La versió de desenvolupament, per la seva banda, inclou també les correccions que es van efectuant i a més tota la nova funcionalitat que la pròxima versió inclourà.
-Amb aquest sistema, sempre tenim una versió estable per oferir als nostres usuaris i una versió de desenvolupament, per a usuaris avançats i desenvolupadors, que reflecteix la direcció que prendrà el projecte.
-Pel que fa a documentació per als usuaris de l'Abiword, el programa inclou una completa ajuda en línia, a què també es pot accedir via web, i una recopilació de les preguntes i respostes més freqüents basada en un sistema col·laboratiu tipus Wiki .
-Els usuaris també tenen un paper molt important en la direcció que pren el projecte, ja que poden votar quins errors volen veure corregits en primer lloc19 , poden proposar noves funcionalitats20 i poden informar de qualsevol problema que tinguin per tal que els desenvolupadors el tinguin documentat i el puguin corregir en versions successives del programa.
-Capítol 5 - Projectes lliures A continuació comentarem alguns dels projectes de programari lliure més coneguts.
-Per poder entendre una mica millor com funciona el programari lliure, i cap on va, és important saber com es van iniciar aquests projectes, el seu estat actual, i la direcció que estan seguint.
-Qualsevol selecció d'aquesta mena sempre deixa al calaix projectes que, en termes absoluts i en importància, potser han realitzat contribucions més rellevants, però que són menys coneguts.
-Hem intentant presentar aquí els més representatius.
-El sistema operatiu Linux s'ha convertit en el vaixell insígnia del moviment del programari lliure, de tal forma que alguns usuaris no iniciats confonen el concepte de Linux amb el de programari lliure.
-És un sistema tan popular que podem veure com, avui dia, hi ha més grups d'usuaris de Linux al món que no pas de programari lliure, encara que, lògicament, tots els usuaris de Linux utilitzen altres programes lliures.
-Linux va néixer de la mà de Linus Torvalds. El 1991, quan tenia 21 anys i estudiava a la universitat de Hèlsinki a Finlàndia, va anunciar en un fòrum d'Internet la primera versió del nucli del seu sistema operatiu.
-Torvalds havia estat treballant durant sis mesos per crear un sistema operatiu per a sistemes Intel 386.
-Als pocs dies de ser publicat, nombrosos hackersvan començar a contribuir-hi amb millores i arranjaments.
-El nucli que Torvalds havia escrit era precisament el cor que li faltava al sistema GNU que Richard Stallman estava dissenyant des de començaments dels 80.
-Així es van crear les primeres distribucions Linux, que incloïen el nucli desenvolupat per Torvalds més un conjunt d'eines GNU.
-Avui dia, hi ha distribucions enfocades a usos concrets, com ara fer de tallafocs en una xarxa o de servidors a Internet, per a àmbits específics com ara la educació (LinEx, per exemple), o d'ús general.
-Entre les distribucions comercials de Linux més conegudes es troben Red Hat , Mandrake Linux i Suse3 (ara part de Novell).
-Totes elles estan pensades per a l'usuari final i són àmpliament utilitzades.
-Dins de les distribucions Linux, Debian mereix una menció especial; aquesta distribució fou creada l'agost de 1993 per Ian Murdock amb l'objectiu de proporcionar una distribució totalment lliure.
-Debian està basada, en gran part, en voluntaris, i no té cap empresa al darrere de la seva organització.
-Actualment, té més de 10.000 paquets de programari llestos per instal·lar.
-Una àrea on el Linux és cada vegada més popular és la dels liveCD.
-Es tracta de distribucions que s'executen directament des d'un CD-ROM i que no requereixen cap mena d'instal·lació en el disc dur ni cap tipus de paràmetre de configuració; n'hi ha prou amb introduir el CD-ROM; en iniciar el PC, comencen a executar-se automàticament.
-Aquesta mena de distribucions gestionen i reconeixen automàticament molts tipus de targetes gràfiques, de so, dispositius SCSI i altres perifèrics.
-S'estan usant extensament per donar a conèixer el Linux als usuaris neòfits, i es poden aconseguir a través de revistes d'informàtica.
-La distribució liveCDmés popular és l'alemanya Knoppix , basada en Debian, i de la qual s'han fet moltes versions personalitzades.
-El Linux no solament ha innovat com a programari, sinó també en el seu model de producció; Torvalds va impulsar des de bon començament un ritme constant de publicació de versions, seguint el lema “publica aviat, publica sovint”.
-Amb aquest sistema, Torvalds anava publicant versions de Linux cada poques setmanes, i amb això imprimia un gran dinamisme al desenvolupament del producte.
-Torvalds, que és encara el responsable del projecte, ha estat capaç de gestionar les contribucions al projecte d'una forma sensata, la qual cosa li hi ha valgut el sobrenom de “dictador benèvol”.
-El Linux, avui dia, està disponible per a tot tipus de plataformes de maquinari, des de mainframesa assistents personals, i s'utilitza a milions d'instal·lacions d'arreu del món.
-Google, Amazon, l'Agència Europea Espacial o la NASA figuren entre els molts usuaris que basen la seva infraestructura en Linux, a més dels milions d'usuaris individuals que l'utilitzen diàriament.
-El 1994 es va crear l'empresa Netscape, al començament amb el nom de Mosaic Communications.
-Enrere quedaven el navegador Mosaic i altres eines que estudiants i administradors de la Universitat d'Illinois6 havien escrit vertiginosament en pocs mesos, i que havien popularitzat la web a Internet.
-Un d'aquests programes que va quedar pràcticament orfe va ser el servidor web NCSA httpd escrit per Rob McCool.
-El programa era lliure, i tenia molts usuaris que el continuaven utilitzant, però que necessitaven introduir-hi millores.
-Així es va anar creant una col·lecció de pegats per afegir funcionalitat extra a l'antic httpd.
-El 1995 es creava el projecte Apache, prenent com a base aquests pegats i la feina del programa httpd de NCSA.
-Apache és un dels exemples de comunitats de desenvolupament que han estat tremendament productives, coordinant més de 800 contribuïdors voluntaris, d'empreses i universitats.
-El projecte compta amb l'Apache Group, que està format per desenvolupadors que hi han col·laborat durant un període llarg de temps, i que són escollits per votació7 per formar part del nucli de persones que prenen les decisions.
-Avui dia, Apache és el servidor web més utilitzat, amb una quota del 67% sobre el total de servidors a Internet.
-Juntament amb els llenguatges de programació PHP i Perl, i el sistema de bases de dades MySQL, formen el conjunt d'eines lliures de creació web més populars de la Xarxa.
-El 1996, Matthias Ettrich, un estudiant alemany de la Universitat de Tübingen , va iniciar el projecte KDE9 amb l'objectiu de crear un entorn d'escriptori gràfic per a entorns Unix.
-Dins del projecte KDE s'han desenvolupat múltiples aplicacions com ara el Kmail, un complet gestor de correu electrònic, el Konqueror, un navegador web i gestor de fitxers, o el Koffice, un paquet ofimàtic de prestacions bàsiques.
-Hom va prendre la polèmica decisió de basar el desenvolupament del KDE en la biblioteca QT, escrita per l'empresa TrollTech10 . Llavors, aquesta biblioteca era gratuïta per a l'ús no comercial, però no era programari lliure.
-Tres anys més tard, TrollTech anunciava que llicenciava la biblioteca QT sota la llicència GPL, la qual cosa la convertia en lliure, però només per a usos lliures.
-Anualment, els desenvolupadors i usuaris del KDE es reuneixen a l'aKademy .
-Durant aquest esdeveniment, que dura diversos dies, es donen xerrades sobre desenvolupament sobre KDE, es corregeixen errors de forma conjunta, es decideixen noves funcionalitats del producte i s'imparteixen tallers d'ús dels diferents programes i tecnologies relacionades amb el KDE.
-Tot i que el desenvolupament del KDE és realitzat principalment per voluntaris, diverses empreses com ara Suse (ara Novell), Mandrake o TrollTech hi col·laboren amb recursos i desenvolupadors a temps complet.
-Una de les empreses que també hi col·labora i que ha construït un producte a partir del KDE és Xandros , que comercialitza escriptoris avançats per a entorns Unix.
-El 1997, els mexicans Miguel d'Icaza i Federico Mena van llançar el projecte GNOME amb l'objectiu de desenvolupar un escriptori modern i senzill per a entorns Unix.
-Un any abans s'havia iniciat el projecte KDE , però la decisió d'usar una biblioteca de propietat per implementar-lo va enutjar sectors de la comunitat de programari lliure, ja que, per a molts hackers, l'objectiu era fer un sistema operatiu completament lliure, i una part tan important del mateix no podia basar-se en programari de propietat.
-Amb el mateix objectiu que el KDE, van decidir començar el seu propi projecte, basant-lo completament en programari lliure.
-Després de molts mesos d'esforços, el març de 1999, en el marc de la Linux World Expo a Sant José, s'anunciava el GNOME 1.
-0. Era una versió important, ja que culminava més de dos anys d'esforços i brindava una plataforma amb la qual es podrien desenvolupar aplicacions que aprofitarien tota la seva funcionalitat.
-Des d'aleshores, el GNOME ha anat millorant i creixent a un ritme sense aturador, i avui dia destaca pel seu alt grau d'usabilitat.
-Des de l'any 2000, la comunitat GNOME organitza la GUADEC15 , un esdeveniment de caràcter anual que serveix de fòrum de trobada entre desenvolupadors, usuaris, governs i empreses involucrades en el desenvolupament i ús del GNOME.
-GNOME té una fundació que coordina l'alliberament de noves versions i determina quins projectes en formen part.
-La fundació actua com a veu oficial davant els mitjans de comunicació i coordina la creació de materials educatius i de documentació per ajudar els usuaris a aprendre a usar aquest entorn.
-A més, representa al projecte en conferències, i ajuda en la creació dels estàndards tècnics i especificacions per al GNOME.
-A part de la fundació GNOME, hi ha un gran nombre d'empreses que contribueixen diàriament, i des de fa anys, a la millora del sistema.
-Una de les primeres va ser Red Hat, que, a través dels Red Hat Labs, treballa en la millora general del GNOME.
-Ximian, fundada el 1999 i adquirida per Novell l'agost de 2003, ha contribuït també en la millora general del GNOME i amb productes com ara el RedCarpet o l'Evolution.
-Recentment, Sun Microsystems ha tingut un paper important en el GNOME, ajudant a completar traduccions i a millorar l'accessibilitat del sistema per a persones discapacitades.
-El 23 de gener de 1998, Netscape Communications anunciava16 la distribució gratuïta del seu navegador web Netscape Communicator 4, fins aleshores un producte de propietat, així com la publicació del seu codi font amb el nom de Mozilla.
-Aquest anunci va sorprendre molts analistes, ja que no tenia cap antecedent en la indústria del programari.
-Va ser un moment d'inflexió per al programari lliure, perquè una empresa important en aquell moment feia una aposta ferma pel moviment i posava a disposició de la comunitat un navegador d'Internet en forma de programari lliure, amb les últimes tecnologies.
-Era un moment complicat. El seu navegador, des de la seva aparició el 1994, havia vist disminuir la seva quota de mercat des del punt més àlgid -el 1996 era utilitzat pel 70% dels usuaris d'Internet- fins al 57% que mantenia quan va decidir alliberar el codi.
-Netscape reaccionava així davant la competència de l'Internet Explorer, el navegador de Microsoft que la multinacional regalava i que ja començava a distribuir de sèrie com a part del Windows.
-Davant del perill de quedar relegat a una posició testimonial, Netscape esperava que, alliberant el seu codi font, la comunitat ajudaria a seguir construint i popularitzant el seu navegador, al més pur estil dels primers sistemes Unix.
-La publicació del codi font no va ser un procés immediat, ja que Netscape només podia alliberar la part del codi que li pertanyia i havia de prescindir de tot el programari integrat en el navegador que era propietat de tercers; es tractava de 75 components, i Netscape va haver de posar-se en contacte amb els titulars dels drets, un per un, per intentar explicar-los els avantatges de la seva decisió.
-No tots ells, però, van estar disposats a seguir el camí d'obrir el codi, i la versió que es va publicar no va incloure, ni de bon tros, tota la funcionalitat del Netscape Communicator versió 4.
+A Espanya hi ha poca indústria pròpia de programari estàndard, i gairebé totes les aplicacions de consum massiu es desenvolupen a altres països.
+A finals de mil nou-cents noranta-set, IBM estava estudiant com reorganitzar la seva oferta de serveis web.
+A finals de setembre del dos mil tres van aparèixer les primeres indicacions que la Comunitat Europea podria estandarditzar els formats de l'OpenOffice.
 A més de publicar el codi font calia crear un lloc a Internet per organitzar el desenvolupament de tot el projecte: naixia Mozilla.
-org17 . El 31 de març de 1998 es presentava públicament Mozilla, una organització independent amb l'objectiu de fer de repositori central del codi del projecte i de proporcionar les eines col·laboratives necessàries per coordinar als diferents integrants del projecte.
-Mozilla és un nom que, de fet, descriu quatre coses: el nom del lloc web que conté el projecte, el conjunt d'eines i biblioteques que s'hi ha creat, el navegador produït i distribuït en base a aquestes eines i la mascota del projecte.
-La versió distribuïda amb aquest nom conté un navegador, un programa de missatgeria, un programa de creació de pàgines web, un client de xat i un conjunt d'eines de privadesa i depuració.
-La publicació del codi font i la creació de Mozilla.
-org van aixecar moltes expectatives al voltant del projecte.
-No obstant això, els mesos següents es va demostrar que coordinar el desenvolupament d'un producte tan gran era una tasca complexa, i l'equip no va ser capaç de produir un nou navegador en el període de temps que molts haurien volgut.
-Mentrestant, l'Internet Explorer anava guanyant quota de mercat i s'anava consolidant com el navegador més popular a Internet.
-Mozilla no tenia una tasca gens fàcil al davant a causa dels problemes amb les llicències amb codi de tercers.
-En la primera versió del codi font del navegador alliberada per Netscape, el llenguatge Java, els correctors ortogràfics i els mecanismes de seguretat propietat de RSA -impossibles d'alliberar en forma de codi font sota la legislació nord-americana vigent en aquell moment-, entre d'altres, no hi eren incloses.
-D'aquesta manera, Mozilla començava el seu camí amb una versió lliure del navegador sense molts dels components més bàsics, necessaris per aconseguir un navegador competitiu.
-Els programadors de Netscape també eren conscients que seria necessari redissenyar el producte, especialment el motor HTML, per poder-lo adequar als nous estàndards i tecnologies.
-Amb el temps, al voltant de Mozilla es va anar vertebrant una comunitat amb llocs web de notícies independents, com ara MozillaZine18 o MozillaNews ,que faciliten informació relacionada amb l'evolució dels projectes de Mozilla i de tercers.
-També va néixer MozDev , un lloc web que proporciona pàgines web i recursos de col·laboració gratuïts a més de seixanta projectes, de tota mena, relacionats amb Mozilla.
-De MozDev han sorgit un bon grapat d'idees i components que avui dia ja s'han incorporat al navegador.
-Mozilla, però, hi ha fet més aportacions: algunes de les seves eines, com ara Bugzilla o Bonsai, han estat adoptades per molts altres projectes, i han contribuït de manera decisiva en la millora de les infraestructures de desenvolupament en el món del programari lliure.
-El novembre de l'any 2000, trenta-dos mesos després de l'alliberament del codi font de Mozilla, Netscape va publicar la versió 6.
-0 del seu navegador, basada en la tasca de Mozilla.
-org. Aquesta nova versió introduïa el nou motor de processament de HTML, Gecko -un gran avanç respecte a les antigues versions 4.
-7 de Netscape-, així com totes les tecnologies més actuals, incloent eines per a la gestió de la privadesa.
-Actualment, Mozilla.org produeix un conjunt d'eines d'Internet per a Unix, Linux, Mac i Windows; entre els seus productes destaquen el FireFox, un navegador molt lleuger, i el ThunderBird, un client de correu electrònic.
-El juliol de 2003 es va crear la fundació Mozilla21 amb l'objectiu de promoure el desenvolupament, la distribució i l'adopció de les tecnologies desenvolupades pel projecte.
-La fundació s'inicià amb 2 milions de dòlars, cedits per America Online, i 300.
-000 dòlars aportats, a títol personal, per Mitch Kapor, creador del gestor de fulls de càlcul Lotus 1-2-3 i fundador de Lotus Development .
-Des de la seva creació, la fundació ha rebut més de 500 contribucions econòmiques d'empreses i particulars.
-Encara que el món del programari lliure ja comptava el 1999 amb aplicacions ofimàtiques com ara l'Abiword, el Gnumeric o el Koffice, el cert és que no oferien la funcionalitat que un usuari mitjà podia esperar, i llurs filtres per importar documents creats amb el Microsoft Office eren totalment inacceptables.
-Per a l'usuari final, després del sistema operatiu, el paquet ofimàtic és el conjunt de programes més utilitzats.
-Amb un Linux ja madur, i uns projectes d'escriptori com el KDE i el GNOME prou avançats, una de les últimes peces que faltava per completar el mosaic d'una solució lliure completa era un paquet ofimàtic.
-El 1999, Sun Microsystems va adquirir la companyia alemanya StarDivision.
-El seu producte estrella era l'StarOffice, un paquet ofimàtic prou madur ja en aquella època, orientat a un públic tant particular com professional.
-Seguint els passos de Netscape, Sun va decidir alliberar el codi de l'StarOffice i crear una comunitat de programari lliure al seu voltant.
-Així naixia OpenOffice.org, donant nom a la comunitat que manté la versió lliure del projecte i a la pròpia comunitat.
-En poc temps, l'OpenOffice.org es convertia en la solució ofimàtica més utilitzada dins del món del programari lliure.
-L'OpenOffice.org està disponible en més de 30 idiomes i inclou un processador de textos, un gestor de fulls de càlcul, un programa de presentacions i un programa per a la creació de gràfics.
-Una de les característiques importants de l'OpenOffice és que permet obrir gairebé a la perfecció qualsevol document creat amb el Microsoft Office, la qual cosa representa un gran avantatge per poder interoperar amb usuaris d'aquest paquet i realitzar-hi migracions.
-Inclou, a més, opcions com ara l'exportació directa de documents a format PDF, o la creació de presentacions en format Flash, que no estan disponibles en els altres paquets ofimàtics.
-Un dels avantatges de l'OpenOffice.org és que els seus formats de dades natius estan basats en XML.
-Això dóna una gran flexibilitat per poder crear les nostres pròpies eines de processament de documents o recuperar-los des d'altres aplicacions.
-A finals de setembre del 2003 van aparèixer les primeres indicacions que la Comunitat Europea podria estandarditzar els formats de l'OpenOffice.
-org sota la norma ISO per a la seva adopció posterior.
-Sun, que encara segueix sent el principal mantenidor de l'OpenOffice.
-org, produeix a partir de la versió lliure, utilitzant una llicència dual, el producte comercial StarOffice .
-La principal diferència respecte a l'OpenOffice és que inclou una base de dades personal i alguns filtres addicionals per a la importació i exportació de documents.
-Amb un preu de venda al públic de 79,95 dòlars l'any 2004, Sun hi inclou una guia d'instal·lació molt completa i suport tècnic.
-Durant l'any 2000, Microsoft va presentar la tecnologia .
-Net com una plataforma de programari d'última generació per simplificar el desenvolupament de serveis web i aplicacions d'escriptori, i, poc després, en va iniciar el procés d'estandardització de la part principal, en l'associació ECMA , per a la seva formalització i acceptació com a estàndard.
-Aquesta associació ha estandarditzat nombroses tecnologies, entre elles el llenguatge Javascript.
-A primers de 2001 es va iniciar el projecte Mono , impulsat per l'empresa Ximian, actualment part de Novell27 , com a implementació de codi obert de la plataforma .Net de Microsoft i de l'estàndard ECMA. L'objectiu original era proporcionar una plataforma de programari lliure que facilités el desenvolupament d'aplicacions d'escriptori en entorn Linux, reduint el temps i els costos de desenvolupament.
-Amb el temps, també s'ha posicionat com a un entorn que permet l'execució sota Linux d'aplicacions dissenyades per a Microsoft .
-Net en entorn Windows, facilitant la migració d'aplicacions a Linux i augmentant la seva base de desenvolupadors i usuaris.
-Actualment uns 20 enginyers de Novell treballen en el projecte Mono, en què ja han col·laborat més de 300 voluntaris.
-Els paquets que componen la distribució de la plataforma Mono comprenen un compilador C#, una màquina virtual (que permet executar les aplicacions) i un conjunt de biblioteques de classes que proporcionen milers de funcions, llestes per ser utilitzades, amb una completa documentació en línia.
-Amb el Mono es poden escriure aplicacions en un gran nombre de llenguatges de programació, incloent-hi Python, Object Pascal, Nermele i C#.
-Un cop escrites, les aplicacions es tradueixen a CIL (Common Intermediate Language), que és un llenguatge intermedi que no té particularitats de cap arquitectura.
-Un cop compilada en CIL, l'aplicació es tradueix al llenguatge específic de l'arquitectura final on s'executarà.
-Aquest sistema permet distribuir un únic programa binari per a totes les arquitectures, en comptes d'un programa específic per a cada plataforma, però no és menys important la llibertat de triar qualsevol llenguatge de programació o combinació d'ells i poder executar l'aplicació en qualsevol de les plataformes per a les quals el Mono es troba disponible, entre les quals s'inclouen Intel, AMD64, SPARC, StrongArm i S390x.
-El Mono proporciona les eines per crear aplicacions per a Linux (diverses distribucions), Solaris, Windows, Mac/OS i mainframesd'IBM.
-Dins de les nombroses contribucions per part de voluntaris, una d'especialment significativa és Monodevelop , una adaptació a Mono, en plataforma Linux, de l'entorn de desenvolupament de codi obert SharpDevelop, que integra editor de textos, depurador, gestió de projectes i documentació en línia.
-Monodevelop s'ha escrit amb Mono i GTK#, i en si mateix representa un exemple del tipus d'aplicacions que, d'una manera ràpida i senzilla, es poden crear amb el Mono.
-Avui dia, la plataforma Mono s'està utilitzant per desenvolupar aplicacions Linux d'última generació.
-Algunes de les més significatives són DashBoard , un gestor d'informació personal i iFolder  
-, un sofisticat sistema de gestió de fitxers. També s'està utilitzant per poder executar en Linux serveis web dissenyats en ASP.
-NET sota plataforma Windows, com per exemple les nombroses aplicacions ASP.
-NET que ha portat a Mono la consultora Völcker Informatik AG per al seu ús a l'Ajuntament de Munic, funcionant en 350 servidors.
-Capítol 6 - Oportunitats de negoci en el programari lliure Introducció 
-La llibertat de comerciar amb el programari lliure, de vendre'l i d'oferir serveis relacionats, és una de les seves característiques imprescindibles.
-Moltes empreses i particulars aprofiten aquesta llibertat per fer-hi negocis, tant venent-lo com oferint serveis de formació i consultoria.
-L'any 2005, el 67% dels servidors web d'Internet utilitzen el servidor lliure Apache.
-El programari lliure ha arraconat els servidors basats en codi de propietat.
-Apache és desenvolupat, de manera cooperativa, per voluntaris i empreses.
-Diàriament, empreses i professionals presten serveis i realitzen desenvolupaments gràcies a ell.
-El programari lliure va començar a crear una gran expectació als Estats Units en el sector privat l'any 1999, quan Red Hat i VA Linux esdevingueren les dues primeres empreses basades en programari lliure que s'incorporaven a l'índex borsari Nasdaq.
-Tot i que les coses han canviat molt des d'aleshores, especialment per a VA Linux, RedHat té avui dia més capitalització borsària que algunes de les empreses tradicionals de programari de propietat.
-Sóc contrari a l'argument que el programari lliure proporciona nous models de negoci; estic més en la línia de pensar que el programari lliure és un nou model de producció de programari, i d'entendre la propietat intel·lectual, que crea una situació de mercat diferent a l'establerta pel programari de propietat.
-Els models de negoci, amb algun petit matís, són els mateixos que s'han usat tradicionalment en la indústria del programari.
-El programari lliure garanteix a tothom l'accés al codi font, la possibilitat de modificar-lo i, conseqüentment, la participació en el seu procés de creació.
-També garanteix que qualsevol usuari o empresa de programari pugui distribuir-lo.
-Tots tenim els mateixos drets sobre el programari lliure, i això crea un entorn de lliure competència que és beneficiós per a les pròpies empreses i usuaris.
-Qualsevol empresa té les mateixes oportunitats de competir que qualsevol altra persona o empresa de la resta del món.
-El programari de propietat tendeix a crear mercats monopolistes, o oligopolístics en el millor dels casos, a causa dels drets exclusius que el fabricant té sobre el programari i que es tradueixen en un control exclusiu sobre la millora i distribució del propi programari.
-En aquest sentit, l'evidència empírica demostra que la majoria de mercats horitzontals de la indústria del programari es troben dominats per una o poques empreses, des de sistemes operatius o paquets ofimàtics fins a aplicacions de disseny gràfic o aplicacions de servidors.
-En la indústria de les tecnologies de la informació molt poques vegades es crea una solució informàtica des de zero, sinó que s'utilitzen aplicacions i infraestructures de programari ja existent.
-El programari lliure abarateix els costos de desenvolupament de les nostres solucions, ja que tenim a la nostra disposició una gran quantitat de biblioteques i aplicacions completes que podem utilitzar per construir les nostres pròpies solucions lliures.
-Un fet important, si tenim en compte que aproximadament un 75% per cent del programari que s'escriu al món és d'ús intern per a empreses, que requereix un alt grau de personalització, i en què el programari lliure pot proporcionar desenvolupaments més econòmics.
-El programari lliure ha invertit la lògica quant a la manera en què els titulars dels drets d'autor del programari en cedeixen una part als seus usuaris.
-Els fabricants de programari de propietat basen una part de la seva font d'ingressos en vendre, a través d'una llicència, el dret d'ús del seu programari.
-Tot i que cap de les llicències de programari lliure no imposa cap restricció per a la seva venda , el fet que el codi estigui disponible i que qualsevol pugui redistribuir-lo fa que, efectivament, el cost de llicència tendeixi a ser inexistent.
-Hi ha qui creu, erròniament, que la venda de llicències és una font extraordinària d'ingressos per a qualsevol empresa.
-Aquesta creença ve impulsada per l'exemple de les empreses de venda de programari estàndard empaquetat, com ara Microsoft, Symantec o Adobe.
-Aquest tipus d'empreses, un cop cobertes les despeses de desenvolupament i màrqueting del producte, tenen uns costos marginals molt baixos, de manera que una gran part del preu del producte es converteix en benefici.
-Els costos fixos que tenen, principalment el desenvolupament de noves versions del producte, no augmenten pel fet de per vendre'n més unitats.
-La creació de programari és un procés econòmicament molt costós però, un cop amortitzat, el cost de còpia és molt baix.
-Això provoca l'efecte que, si un venedor aconsegueix una posició dominant en un mercat, si ho creu convenient pot fàcilment vendre a preus molt baixos, dificultant la instauració de nous competidors.
-No obstant això, són relativament poques les empreses que poden seguir aquest model, ja que els mercats horitzontals són certament limitats.
+A partir d'aquest moment, qualsevol la pot reproduir, distribuir o fer-ne obres derivades sense cap mena de restricció.
 Aconseguir escriure un producte que sigui un èxit és tan difícil com aconseguir escriure una novel·la que es converteixi en un best-seller.
-En èpoques de recessió econòmica, els ingressos per venda de llicències tendeixen a disminuir, ja que les empreses congelen l'adquisició de nou programari.
-Si la situació de recessió és prolongada, els serveis solen ser l'única forma d'ingressos.
-Les empreses amb un model de negoci basat en serveis tenen més capacitat per enfrontar-se a les situacions adverses del mercat que les empreses els ingressos de les quals provenen de la venda de productes, molt més vulnerables.
-La mitjana d'ingressos per la venda de llicències en empreses que desenvolupen programari comercial, tant lliure com de propietat, és d'una mica menys d'un 30% del total del seu negoci, mentre que el 70% restant prové de la prestació de serveis.
-Frank Hercker escrigué el 1998, mentre era empleat de Netscape, un detallat assaig sobre les possibilitats de negoci en el programari lliure.
-En aquells moments, Netscape estava considerant possibles formes d'aconseguir ingressos una vegada alliberat el codi font del seu navegador, que més tard es convertiria en el projecte Mozilla.
-L'assaig és dels més complets en aquesta àrea, però, tot i ser destacable, descriu moltes idees que amb el temps s'han demostrat poc viables o que molt poques empreses poden aplicar.
-Enumerarem a continuació els principals models de negoci que s'han aplicat amb èxit al programari lliure durant els últims anys.
-Aquests models també s'han aplicat anteriorment a empreses de programari no lliure, i per tant no els podem considerar exclusius del programari lliure.
-Empreses que venen el programari com a producte. Empreses que creen programes informàtics o que participen activament en el seu desenvolupament i que, habitualment, el venen posteriorment a través d'un canal en forma de producte.
-Són empreses que tenen pressupostos importants destinats a finançar la investigació i el desenvolupament d'aquests projectes lliures, a diferència de les empreses de serveis, que normalment hi fan contribucions puntuals.
-En la indústria del programari tenim empreses com ara Sun Microsystems, que desenvolupa el producte Star Office a partir del projecte lliure OpenOffice.
-org; Novell, que comercialitza el client de correu electrònic Evolution o el producte Zen Networks, que inclou el programari lliure RedCarpet, o IBM, que inclou l'entorn de desenvolupament Eclipse com a part de la seva solució Websphere.
-Tot i que aquests productes han estat desenvolupats principalment per enginyers d'aquestes empreses, han comptat amb un suport molt important de les comunitats de programari lliure que s'han creat al seu voltant.
-Pràcticament totes aquestes empreses ofereixen serveis relacionats amb llurs productes, com ara personalització, formació, suport tècnic o integració dels seus productes amb sistemes de tercers, és a dir, que no viuen exclusivament de la comercialització del producte.
-Algunes d'aquestes empreses ofereixen llicències dels seus productes per a usos no lliures.
-Es tracta, habitualment, d'empreses que han impulsat projectes de programari lliure i en són titulars dels drets d'autor.
-Això permet que, per exemple, aquestes empreses utilitzin un sistema de llicència dual i puguin oferir una llicència lliure a qualsevol que estigui disposat a publicar el codi de les seves millores i, alhora, una llicència no lliure, lògicament previ pagament, als qui no vulguin compartir les seves modificacions.
-Aquest model és atractiu per a les empreses, perquè permet oferir els productes de forma lliure i també no lliure segons les necessitats de cada client, i permet obtenir els beneficis d'utilitzar el mètode de producció del programari lliure.
-Més endavant veurem el cas de l'empresa MySQL AB, que explota aquest model amb un notable èxit.
-Empreses de serveis informàtics. Empreses que es dediquen a la consultoria, desenvolupament de solucions personalitzades, formació i suport tècnic.
-Aquest tipus d'empreses representa l'àrea principal en què s'està concentrant el desenvolupament del negoci del programari lliure a Espanya.
-El seu valor diferencial respecte a les empreses de serveis tradicionals són els beneficis que transmeten als seus clients pel fet de treballar amb tecnologies lliures, com ara l'accés al codi font de les solucions.
-És cada vegada més habitual trobar administracions públiques i empreses que exigeixen l'ús de tecnologies lliures en el desenvolupament de llurs solucions.
-En general, les empreses d'aquest tipus que millor funcionen són aquelles que s'especialitzen en una àrea concreta de coneixement, com ara la creació de gestors de continguts amb programari lliure o de serveis web.
-Ser un especialista en una àrea i ser reconegut com a expert en ella és una bona estratègia.
-De fet, ser desenvolupador o contribuïdor de programari lliure és una de les millors targetes de presentació que podem tenir si ens dediquem a donar serveis basats en programari lliure.
-És habitual que les empreses de serveis hagin de desenvolupar solucions a mida.
-El món del programari lliure ofereix un gran ventall de programes informàtics, biblioteques i exemples de cost molt baix que pot accelerar enormement la creació de solucions competitives.
-Segons LibroBlanco.com , una iniciativa que fa un seguiment del programari lliure en l'àmbit del sector públic, el juliol del 2004 hi havia comptabilitzades 289 empreses a Espanya que treballaven i donaven serveis basats en programari lliure.
-Les tres comunitats amb una concentració més alta d'empreses de programari lliure eren Madrid, amb 68, Catalunya, amb 46, i Andalusia, amb 40.
-Venedors de maquinari. Són empreses que centren el seu negoci en la venda de maquinari i per a les quals el programari n'és un complement necessari.
-Alguns exemples en són Cobalt (adquirida per Sun Microsystems), que ven servidors amb programari Linux altament personalitzat, o Sharp, que ven l'organitzador personal Zaurus , el qual, com a base del seu programari d'usuari, utilitza Linux i altres programes lliures.
-En aquest sentit, a finals de l'any 2003 representants dels governs, universitats, i empreses de la Xina, el Japó i Corea van firmar un acord per desenvolupar conjuntament un sistema operatiu per al mercat asiàtic, basat en Linux, que fos una alternativa al sistema Windows de Microsoft.
-Entre els motius principals destaquen la independència i l'alliberament de pagament de cànons de programari que aquesta decisió representa per a l'important sector asiàtic de fabricants d'electrònica de consum.
-Durant l'estiu del 2004 es presentà la versió 1.0 d'Asianux, i els diferents membres del consorci asiàtic han iniciat el seu procés d'adopció.
-Tot això no és sorprenent si tenim en compte que, ja els anys 70, el Japó, mitjançant empreses com ara Hitachi, Fujitsu o NEC, va competir de forma agressiva en la creació de maquinari i programari (incloent sistemes operatius) al mercat dels mainframes, o, els anys 90 en la indústria de l'entreteniment, dins de la qual s'ha convertit en un líder indiscutible en el desenvolupament de programari de videojocs.
-Sol haver-hi un cert tabú quan es parla de les experiències fallides en el món del programari lliure.
-La veritat és que qualsevol experiència té alguna part positiva i sempre se n'aprèn alguna cosa; és interessant conèixer aquestes experiències, saber com es van enfocar, i intentar entendre per què no van tenir èxit.
-És important reconèixer el risc que van assumir perquè, encara que fallides, foren innovadores en intentar posar en marxa experiències de negoci que no s'havien intentat abans.
-L'empresa SourceGear va començar a treballar el 1998 en el desenvolupament del processador de textos lliure Abiword9 . La idea de SourceGear era crear un paquet ofimàtic complet de programari lliure per a Linux, Windows i Mac.
-Això va ser abans que Sun Microsystems alliberés l'OpenOffice.
-org, i no hi havia, doncs, un paquet ofimàtic lliure que liderés el mercat.
-Van començar escrivint l'Abiword, el processador de textos, que va ser l'únic producte que van arribar a completar.
-SourceGear confiava en un creixement aclaparador del Linux com a plataforma d'escriptori i en construir una comunitat al voltant del projecte que els ajudés a crear el seu producte de forma més ràpida, reduint-ne els costos de desenvolupament.
-Malauradament, el Linux va créixer en l'escriptori a un ritme molt més lent del que s'esperava i, encara que van aconseguir construir una comunitat al voltant del seu producte, el desenvolupament va requerir molt més temps i esforç del que esperaven, cosa que és, de fet, habitual en molts projectes de programari.
-Eric Sink, fundador de SourceGear, explica com la seva empresa va fracassar en intentar posicionar l'Abiword com a solució en diferents sectors del mercat.
-L'error principal de SourceGear fou intentar obtenir beneficis de la manera en què ho han fet tradicionalment els venedors de programari de propietat.
-Després de més de dos anys de desenvolupament, i davant la impossibilitat de generar beneficis que aconseguissin pagar el cost de desenvolupament del producte, SourceGear va abandonar la idea d'Abiword i es va reorganitzar com empresa de programari de propietat.
-Actualment facilita solucions de control de versió de codi amb un èxit notable.
-SourceGear va cedir el projecte Abiword a la comunitat de programari lliure.
-El servidor del projecte fou acollit en una universitat, i avui dia un grup de voluntaris en continua el desenvolupament.
-Eazel fou una startupfundada per alguns dels enginyers que havien treballat en el desenvolupament del sistema Mac i per exempleats de Netscape, Be i Sun Microsystems.
-Entre els fundadors figurava Andy Hertzfeld , que va implementar una part molt important de la interfície gràfica del primer Mac.
-Es van marcar com a objectiu aconseguir que Linux fos tan senzill d'utilitzar com ho eren els sistemes Mac.
-L'empresa va gastar aproximadament 13 milions de dòlars i va arribar a tenir 70 empleats en plantilla.
-Eazel va generar moltes expectatives, ja que comptava amb enginyers de primera línia, amb una gran quantitat de projectes d'èxit a l'esquena, i amb un nivell de finançament envejable per a la resta d'indústria del programari lliure del moment.
-No obstant això, l'aventura va durar sis mesos. L'únic producte que van dissenyar va ser el Nautilus, un complet gestor de fitxers que facilita la navegació pels recursos del sistema: fitxers, carpetes i dispositius de maquinari.
-El Nautilus era l'eina que permetia establir el negoci, era programari lliure i s'oferia de forma gratuïta.
-La visió d'Eazel era convertir el gestor de fitxers en una cosa semblant a un navegador que permetés oferir tot un ventall de serveis de pagament als seus usuaris.
-El model de negoci d'Eazel estava centrat en la venda de serveis, per subscripció via web, que tindrien un cost d'uns 4 dòlars mensuals i que inclourien serveis de còpies de seguretat dels fitxers dels usuaris i de resolució de problemes de programari.
-No obstant això, mai no va arribar a acumular prou usuaris per fer que l'empresa fos mínimament rendible.
-Eazel va tancar portes el maig de . Poc després, el.
-El Nautilus es va convertir, poc després, en el gestor d'arxius de l'escriptori GNOME i avui en dia és mantingut per una comunitat de voluntaris.
-Tant en el cas d'Ezael com en el de SourceGear és destacable el fet que, encara que totes dues empreses hagin abandonat el desenvolupament del programari, el seu codi font ha sobreviscut a l'aventura empresarial i ha aconseguit continuar gràcies a les comunitats de voluntaris que s'ha construït al voltant dels projectes i que n'han impulsat el desenvolupament.
-Al món hi ha milers d'empreses i professionals que es guanyen la vida cada dia desenvolupant, instal·lant, formant i donant suport al programari lliure.
-Tots ells són casos d'èxit, però són gairebé impossibles de documentar.
-Veurem quatre casos concrets d'empreses que estan utilitzant el programari lliure com a part de la seva estratègia de negoci, o que fins i tot hi estan totalment basades.
-Red Hat ha estat una de les empreses pioneres en el món del programari lliure.
-El 1993, Marc Ewing i Bob Young van formar Red Hat Software. Van començar a casa de Bob Young duplicant la distribució que ells mateixos havien empaquetat i venent-la a un preu de 50 dòlars.
-Pocs anys més tard, entrarien a cotitzar en l'índex borsari tecnològic del Nasdaq.
-Als Estats Units s'ha donat molta importància a Red Hat.
-Freqüentment, els seus èxits o fracassos s'han interpretat com la viabilitat global econòmica del programari lliure.
-Vincular l'èxit d'una empresa o grup d'empreses al fet que el programari lliure sobrevisqui seria tan absurd com afirmar, fa uns anys, que Internet depenia de l'èxit de les “puntcom” per assegurar-ne la continuïtat.
-La diversitat d'interessos dels qui treballen amb i pel programari lliure, i la seva forta tradició acadèmica, asseguren una viabilitat més enllà de l'èxit d'un projecte concret.
-Red Hat sempre ha intentat tornar a la pròpia comunitat una part del benefici que obté gràcies al programari lliure.
-Quan, el 1999, va sortir a borsa als Estats Units, va repartir accions de l'empresa (que lògicament es podien vendre després) entre uns 5.
-000 programadors de diferents projectes de programari lliure.
-Red Hat també té a la seva plantilla desenvolupadors molt destacats dels principals projectes lliures, incloent el nucli (kernel) de Linux, el GNOME o les eines GNU.
-Red Hat ha basat el seu negoci en quatre grans àrees: 
-Formació. Proporciona serveis de formació per a usuaris, administradors de sistemes i desenvolupadors.
-Els cursos més barats costen uns 100 dòlars, i algunes de les matèries que s'hi imparteixen són: seguretat, desenvolupament de nuclis i sistemes encastats, gestió avançada de xarxes o desenvolupament web.
-El seu certificat Red Hat Certified Engineer(RHCE), que posseeixen més de 10.
-000 professionals, es va iniciar el 1999, i s'ha convertit en un estàndard reconegut al mercat.
-Suport. Els serveis de suport és una àrea en què Red Hat ha invertit molts recursos, creant manuals detallats d'instal·lació i ús en diferents idiomes, una base de dades amb incidències comunes i llurs solucions, llistes de maquinari compatible amb la seva distribució i un servei tècnic disponible via telefònica, en diversos idiomes, durant els 365 dies de l'any.
-A més, Red Hat també ofereix suport per a desenvolupadors que creen les seves pròpies aplicacions sobre aquesta plataforma.
-Serveis d'enginyeria.Ja des dels seus inicis, els serveis d'enginyeria van ser una part important dels seus ingressos, amb acords amb empreses de la mida d'Intel per fer desenvolupaments o adaptacions de programari lliure.
-Entre els clients de Red Hat figuren algunes de les 100 empreses més importants dels Estats Units.
-Venda de programari. Red Hat ven programari a través del canal per a l'usuari final a baix preu i versions per a empreses, que inclouen productes de programari de propietat desenvolupats per tercers.
-Els productes que proporciona Red Hat i l'organització de la seva oferta de serveis és força semblant a la d'altres distribuïdors de Linux, com ara l'empresa alemanya Suse (actualment part de Novell) o la francesa Mandrake Software.
-A finals de 1997, IBM estava estudiant com reorganitzar la seva oferta de serveis web.
-Amb menys de l'1% del mercat de servidors web, el 1998 va decidir reemplaçar el seu servidor web propi pel de codi lliure Apache.
-IBM va entrar a formar part de la fundació Apache i, des d'aleshores, ha dedicat, de forma continuada, diners i recursos al desenvolupament i millora del projecte.
-A més, IBM, com a part de la seva oferta, també ofereix als seus clients serveis de suport i personalització basats en Apache.
-L'aposta principal d'IBM, però, ha estat amb Linux.
-La multinacional va iniciar l'any 2001 l'adaptació del sistema Linux a tots els seus sistemes, incloent els mainframesde gamma alta.
-Avui dia, Linux és l'únic sistema operatiu que està disponible per a tots els sistemes que comercialitza l'empresa.
-A més, IBM ha adaptat les seves aplicacions més populars a Linux, incloent la base de dades DB2 i els servidors de la plataforma Notes.
-Tot i que IBM és un dels principals posseïdors de patents del món, ha guanyat una certa bona reputació entre els més escèptics amb el cas SCO, que ha estat, malgrat la seva inconsistència, una de les pitjors amenaces jurídiques dels darrers temps per al Linux.
-SCO, a primers de 2003, va començar a demandar empreses usuàries de Linux, IBM entre elles, per una suposada violació de la propietat intel·lectual.
-IBM ha demostrat que està al costat del programari lliure en defensar Linux davant els tribunals.
-La multinacional, en utilitzar i participar en la creació de programari lliure, s'ha posicionat com un dels grans proveïdors de tecnologies lliures per a grans corporacions.
-Ofereix les seves solucions basades en Linux com a alternatives als servidors de Sun Microsystems i de Microsoft sobre plataforma Intel, el que crea un camí de migració per als seus clients cap al maquinari d'IBM de gamma alta.
-IBM també ha cedit alguns dels seus desenvolupaments a la comunitat de programari lliure, com ara el conjunt d'eines Eclipse, un entorn per a programadors, en què ha invertit 40 milions de dòlars14 . 
-Ándago és una consultora, amb seu a Madrid, especialitzada en projectes web per a empreses i institucions públiques centrada en tecnologies lliures, i especialment en Linux.
-L'any 2001, va rebre una forta inversió del grup financer Talde.
-Va experimentar un creixement molt fort durant l'any 2001, durant el qual va arribar a tenir mig centenar d'empleats.
-L'endarreriment en la implantació de tecnologies lliures per part de l'administració pública, però, va minvar les expectatives de creixement de l'empresa.
-En la trajectòria d'Ándago destaquen les dues importants implantacions de Linux realitzades en l'administració pública: el Virtual Map, basada en la connexió de totes les seus del Ministeri d'Administracions Públiques, i la primera versió del projecte LinEx16 , la distribució de Linux adaptada per a la seva divulgació a tota la ciutadania extremenya.
-Ándago ha desenvolupat plataformes tecnològiques basades en Linux i s'ha especialitzat en adaptar-les als seus clients, entre els que s'inclouen operadors del sector de les telecomunicacions i l'administració pública.
-MySQL AB desenvolupa una família de solucions de bases de dades d'alt rendiment.
-El seu producte principal és el servidor MySQL, que juntament amb Linux, Apache, PHP i Perl, s'ha convertit en una de les eines més populars per crear llocs web a Internet, i és la base de dades lliure més popular.
-L'empresa fou fundada l'any 2001 per dos suïssos i un finlandès, i ha estat rendible des de bon començament.
-L'octubre de 2001 va obtenir finançament d'un fons de capital risc, que ha utilitzat per créixer ordenadament.
-MySQL AB és el posseïdor únic dels drets d'autor dels seus productes.
-Utilitza el sistema de llicència dual i ofereix el seu producte sota una llicència GPL i una altra propietària.
-Els usuaris poden descarregar el programari, utilitzar-lo lliurement i modificar-lo, integrar i distribuir aquestes millores.
-No obstant això, els usuaris de la versió lliure han de seguir les regles de la llicència GPL: si redistribueixen una solució basada en MySQL, el codi font complet de la solució també ha de ser obert i ha d'estar disponible per a la seva redistribució.
-Els clients que utilitzin MySQL com a part d'una solució de programari o maquinari de propietat i no en vulguin fer accessible el codi font poden comprar una llicència de propietat del producte a partir de 500 dòlars.
-Els beneficis de MySQL AB procedeixen principalment de la venda de serveis, suport tècnic i llicències comercials del seu producte.
-Aquests ingressos s'utilitzen per continuar desenvolupant el producte lliure MySQL.
-Capítol 7 - La importància del programari lliure en l'administració En adquirir tecnologies de la informació, l'administració pública té una responsabilitat i uns interessos molts més amplis que una empresa o un particular; ha de tenir una vocació de consum responsable, perquè està treballant amb diners públics.
-L'estalvi que representa el programari lliure és atractiu per a les administracions, ja que els permet una millor administració dels seus recursos.
-El projecte per a educació LinEx , per exemple, va permetre a la Junta d'Extremadura estalviar 60 milions d'euros en llicències de programari, que van poder reinvertir en maquinari i en aconseguir un ordinador per a cada dos alumnes.
-A mesura que passin els anys, i la societat de la informació avanci, les despeses en tecnologies de la informació seran més grans, i més grans encara seran els estalvis en costos de llicències que el programari lliure permet.
-Amb la popularització d'Internet, les comunicacions electròniques entre ciutadans i administracions s'han incrementant enormement, i avui és possible realitzar tràmits administratius via Internet.
-L'administració ha de donar un servei universal i, per tant, respectar i impulsar els estàndards oberts en adreçar-se als seus ciutadans.
-No fer-ho així suposa afavorir un determinat fabricant i els seus clients, discriminant a la resta d'usuaris; és com si només poguéssim veure la televisió publica utilitzant els televisors d'un fabricant determinat.
-Un cas encara freqüent avui dia és el de llocs web d'administracions que només es poden visualitzar correctament amb l'Internet Explorer de Microsoft.
-Què passa amb els usuaris d'altres navegadors? O, encara pitjor, què passa amb els usuaris de plataformes per a les quals aquest navegador no existeix, com ara Linux o Unix? 
-El programari lliure, que forma una part importantíssima de la infraestructura d'Internet, i ha abanderat els estàndards des de bon començament, assegura la no exclusió d'altres programes o sistemes.
-El govern també té la responsabilitat de garantir la privadesa de les dades dels usuaris.
-Sense accés al codi font és impossible saber què fa una aplicació amb aquestes dades, i com les tracta.
-El programari lliure ofereix una transparència total, i permet als governs fer llurs pròpies auditories de seguretat sobre el programari.
-L'empresa Microsoft, conscient d'aquesta preocupació per part dels governs, va llançar la iniciativa Government Security Program , mercès a la qual els governs, prèvia signatura d'un acord que té una duració de tres anys, poden tenir accés a part del codi font de dues de les aplicacions de Microsoft: el sistema operatiu Windows i el paquet ofimàtic Microsoft Office.
-Aquesta iniciativa presenta diverses limitacions respecte al programari lliure: només ens ofereix alguns dels productes de l'empresa, hem de firmar un acord, no podem millorar el programari i, per tant, tampoc no hi ha millores que distribuir.
-En el fons, es tracta més d'una operació de màrqueting que d'una acció que busqui afegir transparència a l'explotació de les solucions Microsoft.
-Quan es pensa en la societat de la informació i en apropar les noves tecnologies a tothom, no solament cal pensar en els costos de les infraestructures de comunicació i del maquinari, sinó també en els costos del programari.
-El preu del programari de propietat necessari per poder accedir a la societat de la informació, per a un ordinador personal, oscil·la entre 400 i 800 euros per PC, una quantitat totalment inabastable per a les regions més desfavorides del món i que condueix a la còpia il·legal o a la fractura digital.
-Per exemple, un ciutadà del Vietnam, on la renda per capita se situa en els 2.
-100 dòlars anuals , hauria d'esmerçar el seu sou de sis mesos per poder pagar una llicència de Microsoft Office i Windows XP Professional.
-No és d'estranyar, doncs, que l'índex de còpies il·legals al país sigui del 97% , i molts països en vies de desenvolupament estan en la mateixa situació que el Vietnam.
-Microsoft, per frenar la migració a Linux dels països en desenvolupament, ha creat una versió del sistema Windows, anomenada Starter Edition, per un preu aproximat de 36 dòlars6 . La versió té limitacions i prestacions retallades: pot executar un màxim de tres programes alhora, no té opcions per a xarxes domèstiques i no funciona en alta resolució gràfica.
-Una altra dada interessant és que al Vietnam es parlen més de 93 llengües i una gran varietat de dialectes .
-El paquet ofimàtic propietari més estès, Microsoft Office, només s'ha traduït a un d'aquestes idiomes i no hi ha plans per adaptar-lo a cap altre.
-El seu principal competidor, OpenOffice.org, pot ser traduït a qualsevol d'aquestes llengües, atès que es tracta de programari lliure.
+Actualment es poden trobar al mercat des d'organitzadors personals fins a supercomputadors que utilitzen sistemes basats en Unix.
 Actualment existeix un projecte del Govern vietnamita per traduir el paquet ofimàtic OpenOffice.
-org i utilitzar-lo en diferents departaments governamentals.
-El programari lliure és, probablement, l'única opció que tindran molts països en vies de desenvolupament per sumar-se a les noves tecnologies.
-Diferents administracions del món necessiten el mateix tipus d'aplicacions informàtiques, que es desenvolupen una vegada i una altra en diferents llocs.
-El programari lliure permet que els governs locals intercanviïn programari i experiències, i ofereix un marc on poden compartir les despeses de desenvolupament de programari.
-La Junta d'Extremadura ha firmat un acord amb la Junta d'Andalusia per tal que aquesta darrera utilitzi la tecnologia generada pel projecte extremeny Linex, i un altre amb el govern de Colòmbia, que està desenvolupant el projecte LinExCol9 (LinEx d'Extremadura per a Colòmbia), una distribució creada per Fundehumano amb el suport de la Junta d'Extremadura.
-Recentment, l'Ajuntament de Barcelona i el de Porto Alegre van firmar un acord per intercanviar experiències relacionades amb el programari lliure que estan estenent a altres administracions.
-La Xina sempre ha estat reticent a subcontractar projectes tecnològics a les grans multinacionals i ha tingut una certa predisposició a la creació d'una indústria de programari pròpia.
-El Govern xinès finança, des de fa diversos anys, la distribució RedFlag de Linux , i treballa en un gran nombre de projectes governamentals amb empreses locals i programari lliure.
-Diferents països, com ara França, Brasil, Argentina o Perú13 han portat lleis a tràmit per afavorir l'ús del programari lliure en l'Administració pública.
-El Parlament Europeu va adoptar recentment una resolució que insta als països membres a promocionar els projectes de codi obert o programari lliure .
-A Espanya hi ha hagut una única proposició de llei , d'Esquerra Republicana de Catalunya (ERC), que fou rebutjada al Congrés dels Diputats16 el setembre de 2002.
-Aquesta mateixa proposició de llei també fou presentada per ERC al Parlament de Catalunya i rebutjada el 25 d'octubre de 2002.
-En el primer cas va tenir els vots en contra del Partit Popular, i en el cas català va tenir els vots en contra del Partit Popular i de Convergència i Unió.
-La proposta de llei d'ERC instava al Govern, i a les empreses on té participació, a utilitzar programari lliure, amb l'única excepció dels casos on no existissin solucions, en els quals es podria utilitzar programari de propietat.
-Aquesta proposta també reclamava al Govern que realitzés tasques de difusió i de cooperació amb experiències relacionades amb el programari lliure a Espanya i a altres països.
-També hi ha hagut un gran nombre de mocions a favor del programari lliure, com ara la de Sant Bartomeu del Grau a Catalunya17 , la presentada pel grup socialista18 al Parlament navarrès instant al Govern de Navarra a posar en marxa un pla de desplegament de l'ús de programari lliure en l'àmbit de l'Administració, o la presentada per Coalición Canaria19 al Parlament de Canàries, favorable a l'ús del programari lliure.
-No obstant això, la majoria d'aquestes mocions i propostes no s'han materialitzat en fets concrets per manca de partides pressupostàries i de plans específics d'execució.
-La Universitat de Lleida (UDL) és la universitat pública pionera en l'ús de programari lliure a Catalunya.
+Actualment facilita solucions de control de versió de codi amb un èxit notable.
+Actualment, a la Unió Europea encara s'està debatent un canvi de llei per permetre i reconèixer en la pràctica les patents de programari en si.
+Actualment, té més de deu mil paquets de programari llestos per instal·lar.
+Així mateix, amb una patent pot impedir a la competència que desenvolupi productes semblants.
+Així, hom contribueix a la formació de professionals en noves tecnologies i al desenvolupament local.
+Així, si estem realitzant una creació combinant creacions de tercers, com per exemple un article, hem de demanar permís a l'autor original.
+Això dóna una gran flexibilitat per poder crear les nostres pròpies eines de processament de documents o recuperar-los des d'altres aplicacions.
+Això es deu al fet que, a causa de la seva llicència, només el fabricant del programari pot realitzar-ne o autoritzar-ne les traduccions.
+Això que hem vist que s'esdevé al web es produeix també en un àmbit molt important: l'intercanvi de dades entre aplicacions.
+Al Brasil hi ha un vint-i-dos per cent de la població que viu en la pobresa.
+Al Brasil, la indústria informàtica mou més de tres mil milions de dòlars a l'any.
+Algunes d'aquestes idees han estat adoptades posteriorment per creadors de continguts digitals com ara música, vídeo o llibres.
+Alguns d'aquests avantatges poden ser més apreciats pels usuaris particulars, d'altres per les empreses i d'altres per les administracions públiques.
+Alguns projectes han formalitzat una mica més el procés de presa de decisions.
+Anem, sense cap aturador, cap a una societat altament interconnectada l'eix fonamental de la qual és la informació.
+Aquest anunci sorprengué molts analistes, ja que no tenia cap precedent en la indústria del programari.
+Aquest anunci va sorprendre molts analistes, ja que no tenia cap antecedent en la indústria del programari.
+Aquest conjunt d'ordres, escrit en el llenguatge amb què els humans treballem, s'anomena codi font.
+Aquest contracte rep el nom de “llicència de programari”.
+Aquest model té paral·lelismes en la forma en què es construïen catedrals en l'Edat Mitjana, ja que la construcció era un procés molt planificat.
+Aquest model és utilitzat per força empreses, ja que permet oferir els productes de forma lliure i no lliure segons les necessitats de cada client.
+Aquest tipus d'empreses representa l'àrea principal en què s'està concentrant el desenvolupament del negoci del programari lliure a Espanya.
+Aquest és principalment el model sobre el qual la humanitat ha innovat i avançat.
+Aquest és principalment el model sobre el qual la humanitat ha innovat i avançat.
+Aquesta biblioteca, aleshores gratuïta per a l'ús no comercial, no era, però, programari lliure.
+Aquesta mateixa proposició de llei també fou presentada per ERC al Parlament de Catalunya i rebutjada el vint-i-cinc d'octubre del dos mil dos.
+Aquesta tècnica es coneix popularment com a "contaminació d'estàndards".
+Aquestes llicències s'anomenen sovint “víriques” per l'efecte de contagi que tenen sobre les obres derivades.
+Aquests desenvolupadors, contribuint al programari lliure, estan realitzant la tasca per la qual reben una remuneració.
+Aquests ingressos s'utilitzen per continuar desenvolupant el producte lliure MySQL.
+Avui dia, Linux és l'únic sistema operatiu que està disponible per a tots els sistemes que comercialitza l'empresa.
+Baix cost d'oportunitat.
+Cada cop més, el programari és el gran intermediari entre la informació i la intel·ligència humana.
+Cap disposició de la llicència no obligarà a l'ús d'una tecnologia concreta.
+A continuació comentarem alguns dels projectes de programari lliure més coneguts.
+Com es pot veure, s'aplica un sistema meritocràtic mitjançant el qual els responsables són escollits segons la feina que han aportat al projecte.
+Començarem esmentant-ne els principals avantatges i després n'analitzarem els falsos mites.
+D'altra banda, el suport tècnic d'empreses de programari de propietat s'acostuma a adquirir com a servei addicional.
+D'aquesta manera s'obté reconeixement del capital intel·lectual del participant, cosa que es pot traduir en oportunitats laborals.
+De fet, ni tan sols existien els estudis d'Informàtica com a disciplina.
+De la mateixa manera, tampoc no es pot exigir el pagament d'un cànon o taxa a canvi de la seva distribució per part de tercers.
+De nou, Microsoft, amb el seu producte Microsoft Office, gaudeix d'una quota de mercat similar a la de Windows, és a dir, una situació de monopoli.
+Debian està basada, en gran part, en voluntaris, i no té cap empresa al darrere de la seva organització.
+Des de la seva creació, la fundació ha rebut més de cinc-centes contribucions econòmiques d'empreses i particulars.
+Distribució de la llicència.
+Diàriament, empreses i professionals presten serveis i realitzen desenvolupaments gràcies a ell.
 Durant anys ha utilitzat sistemes lliures amb resultats excel·lents.
-El 2003 va accedir al rectorat un nou equip que tenia, com a un dels seus objectius, potenciar l'ús de programari lliure, i que va iniciar un procés de migració de tots els sistemes.
-Durant l'any 2003, la despesa en llicències de programari a la UDL va ascendir a 107.
-185 euros21 ; entre els nombrosos objectius de la migració destaca reduir aquesta despesa.
-El procés està previst que finalitzi l'any 2007, i s'ha dividit en diverses fases que s'estan portant a terme simultàniament: 
-Migració de la infraestructura. Contempla la migració de tots els equips que formen la infraestructura de la universitat (servidors de correu, noms, web, etc.
-). Tots els nous projectes que s'hi abordin s'han de desplegar i implementar, si és tècnicament viable, utilitzant exclusivament programari lliure.
-El nivell d'implantació del programari lliure en aquesta àrea a finals de 2004 era ja molt alt, gairebé el 95% dels sistemes existents en tota la universitat.
-Migració del backoffice.El backoffice, és a dir, el que podem anomenar programari de gestió, presenta unes dificultats particulars que fan que la seva migració sigui una de les fases tècnicament més difícils, però també és l'àrea en què els beneficis derivats de l'ús programari lliure són més importants.
-A la UDL el backofficeés força extens, i inclou programes de gestió acadèmica, gestió d'investigació, recursos humans, comptabilitat, i algunes aplicacions fetes a mida.
-Els projectes que s'han iniciat en els darrers anys s'han realitzat utilitzant exclusivament programari lliure, incloent el projecte estratègic més important de la universitat: el campus virtual.
-Només s'està utilitzant programari de propietat en els casos en què el projecte depèn de programari procedent de tercers i del que no hi ha cap alternativa lliure.
-A causa dels llargs cicles de vida que presenta el backoffice, en què un programa pot tenir una vida de fins a 15 anys, el procés de canvi i migració és llarg.
-Migració dels escriptoris.S'ha iniciat un procés progressiu de canvi dels sistemes operatius de l'escriptori i del Microsoft Office per alternatives lliures.
-Ateses les diferències existents, tant a nivell tècnic com organitzatiu, entre els escriptoris del personal docent i investigador i els del personal d'administració i serveis, s'ha optat per migrar els dos col·lectius de forma separada (tot i que les iniciatives que puguin ser comunes es realitzaran de forma conjunta).
-Per al personal docent i investigador s'ha establert un projecte de migració voluntari.
-Les accions concretes per reforçar i ajudar als qui desitgin migrar a programari lliure es basen en establir un mecanisme de suport per trobar i avaluar les alternatives lliures existents al programari científic i d'investigació, i crear un repositori amb totes elles.
-Per al Personal d'Administració i Serveis (PAS) s'ha establert un programa de migració progressiva dels ordinadors d'escriptori cap a Linux i OpenOffice.
-org. Aquest programa seguirà dos camins simultanis: d'una banda, els equips nous que es vagin adquirint s'instal·laran amb el Linux com a sistema operatiu i amb l'OpenOffice.
-org com a programari ofimàtic; de l'altra, l'OpenOffice.
-org s'anirà instal·lant progressivament en els equips antics restants.
-Terminals públics, aules i biblioteques.Un gran nombre d'equips informàtics de la UDL es troben en aules d'usuaris i d'informàtica, en biblioteques, etc.
-on són utilitzats pels estudiants de la UDL. Tots ells es migraran a Linux i OpenOffice.
-L'any 1999, la Junta d'Extremadura va iniciar el Projecte Global de Societat de la Informació, que inclou un paquet d'accions en l'àrea de Societat de la Informació: la difusió d'Internet, el desenvolupament de l'administració electrònica, l'educació en xarxa, el suport a les petites i mitjanes empreses en pràctiques de la nova economia i incorporació a la Societat de la Informació, i el suport i integració de les zones més desfavorides de la regió i grups socialment desfavorits.
-Com a part d'aquest projecte va néixer LinEx , amb l'objectiu de proporcionar una distribució Linux, basada en Debian, personalitzada a les necessitats del sector de l'educació.
-LinEx es convertí, en pocs mesos, en un dels casos d'ús de Linux de més èxit a Espanya.
-Aquesta versió personalitzada de Linux s'ha distribuït a través dels centres d'ensenyament secundari, la Xarxa Tecnològica Educativa i la població en general mitjançant el Pla d'Alfabetització Tecnològica (PAT).
-Mercès al desplegament d'una solució basada en programari lliure, la Junta d'Extremadura calcula que ha aconseguit un estalvi directe de 48.
-000 euros per cada unitat docent, que està composta per 22 ordinadors .
-Es tracta d'un cost gens menyspreable, si tenim en compte que en més de 60.
-000 ordinadors s'ha instal·lat aquest programari en comptes del corresponent programari de propietat.
-Per la seva banda, la Junta ha invertit uns 300.000 euros en el desenvolupament i manteniment del projecte Linex.
-Dins del projecte Vivernet , que té com a objectiu fomentar empreses en les noves tecnologies, en col·laboració amb diverses empreses extremenyes, es va alliberar, sota llicència lliure, el paquet de gestió Gestionlinex i l'eina de gestió comptable Contalinex.
-Totes dues aplicacions s'estan promovent entre les empreses extremenyes davant de les alternatives de programari de propietat i ja han estat adoptades per diferents empreses de la regió.
-El Govern brasiler anuncià l'any 2003 que utilitzaria programari lliure en pràcticament totes les àrees del seu Govern, per la qual cosa es convertirà en el primer executiu a escala mundial a portar a terme un desplegament massiu d'aquest sistema en l'Administració Pública.
-Al Brasil, la indústria informàtica mou més de 3.000 milions de dòlars a l'any, dels quals aproximadament 1.
-000 marxen cap als Estats Units en concepte de llicències de programari .
-El Govern d'Ignacio Lula da Silva aposta per la creació d'un teixit local d'empreses que ofereixin solucions i serveis en programari lliure, amb l'objectiu de fomentar el desenvolupament local i desvincular la inversió pública de les grans multinacionals.
-El desembre de 2002, l'estat de Rio Grande do Sul va ser el primer de Brasil a aprovar una llei a favor de l'ús del programari lliure en l'Administració Pública.
-Ja fa temps que els més de tres milions i mig de clients del banc estatal de Rio Grande do Sul es troben el pingüí (la mascota del sistema operatiu Linux) cada vegada que realitzen una operació amb els caixers automàtics; i és que en, aquest estat, les empreses públiques i universitats comencen a funcionar exclusivament amb programari lliure.
-Al Brasil hi ha un 22% de la població que viu en la pobresa.
-A més, té una gran extensió geogràfica, la qual cosa dificulta la comunicació entre diferents llocs i crea comunitats que poden quedar potencialment aïllades.
-Aquests factors, combinats, van motivar al govern a iniciar en paral·lel diversos projectes d'inclusió digital en diferents zones, basats en l'establiment de telecentres, l'objectiu dels quals és reduir l'exclusió digital, augmentar la capacitat professional, difondre el programari lliure i augmentar la participació popular en les noves tecnologies.
-El programari lliure ha jugat un paper fonamental en la creació d'aquests centres, i està permetent que els qui acaben d'arribar al món digital puguin fer-ho amb programari legal.
-Els responsables dels centres van crear una distribució Linux anomenada Sacix , basada en Debian, que inclou, de forma integrada, tots els programes lliures que es necessiten en aquests centres i que, a més, distribueixen entre la població.
-Una part important de la responsabilitat de l'avanç d'aquest moviment al Brasil recau en la iniciativa "Software livre" , que, d'un temps ençà, impulsa l'ús del programari lliure en l'Administració pública i ha estat organitzant el Fòrum Internacional de Programari Lliure, que l'any 2004 celebrà la seva cinquena edició.
-El projecte, de caràcter no governamental, treballa juntament amb l'alcaldia de Porto Alegre, el Govern federal i altres seccions de l'Administració pública del Brasil per a l'expansió del programari lliure en les diferents àrees del Govern.
-No m'agradaria acabar sense fer una petita conclusió sobre el programari lliure, el seu impacte en el nostre entorn, i el seu futur més immediat.
-Hem vist com el programari lliure ja ha canviat la forma d'entendre la indústria de la programació.
-Empreses i administracions comencen a invertir en solucions basades en programari lliure, més personalitzat i més adaptat a les seves necessitats.
-Cada dia, milers d'empreses i professionals es guanyen la vida desenvolupant, instal·lant, formant i donant suport a programes lliures, i el seu nombre anirà, sense cap dubte, en augment.
-La idea de col·lectivitzar els drets d'autor, introduïda pel programari lliure, ha traspassat ja la programació i ha estat adoptada per creadors de continguts digitals, com ara música, vídeo o llibres, amb iniciatives com ara Creative Commons.
-El sector públic ha entès que la llibertat i el control que proporciona el programari lliure per realitzar modificacions, distribuir-les i desvincular-se d'un únic proveïdor són atractius per a qualsevol Administració, que de cap manera hauria d'acceptar solucions tecnològiques per a les que només existeixi un únic proveïdor.
-Amb l'arribada d'Internet i els telèfons mòbils, el sector públic augmentarà en els propers anys la seva inversió tecnològica de forma molt considerable, i, per tant, les polítiques relacionades amb l'adquisició de noves tecnologies per part de l'Administració tindran encara molta més importància.
+Durant els anys seixanta i part dels setanta era habitual distribuir les aplicacions juntament amb el seu codi font.
+Durant els anys seixanta, els sistemes informàtics mitjans es van popularitzar en algunes universitats.
+Durant força temps va representar un espai global amb un control nul per part de les autoritats.
+El mil nou-cents vuitanta-u, els Estats Units van ser el primer país del món que va permetre la possibilitat de patentar el programari.
+El ciberespai era bàsicament un mitjà autoregulat molt influenciat per la comunitat científica i universitària.
+El codi font del projecte s'ubica en un servidor centralitzat, el qual gestiona un programari de control de versions.
+El concepte de patent, aplicat als programes d'ordinador, no té cap sentit.
+El govern també té la responsabilitat de garantir la privadesa de les dades dels usuaris.
+El més destacable és que permet l'ús i explotació de l'aplicació, en forma de programa o codi, sense cap mena de limitació.
+El món del programari lliure és un excel·lent camp d'aprenentatge per als professionals de les tecnologies de la informació.
+El novembre de l'any dos mil, trenta-dos mesos després de l'alliberament del codi font de Mozilla, Netscape va publicar la versió sis.
+El procés de revisió pública a què està sotmès el desenvolupament del programari lliure imprimeix un gran dinamisme al procés de correcció d'errors.
+El programa era lliure, i tenia molts usuaris que el continuaven utilitzant, però que necessitaven introduir-hi millores.
+El programa ha d'incloure el seu codi font i no se'n pot restringir la distribució.
+El programari està format per un conjunt d'instruccions que un ordinador executa per realitzar una funció específica.
+El programari lliure aplica el model acadèmic tradicional de reconeixement de la feina per part d'altres participants de la comunitat.
+El programari lliure està protegit pels drets d'autor.
+El programari lliure ha arraconat els servidors basats en codi de propietat.
+El programari lliure ofereix una transparència total, i permet als governs fer llurs pròpies auditories de seguretat sobre el programari.
 El programari lliure representa una oportunitat sense precedents per al desenvolupament de la societat de la informació.
-Els exemples d'administracions públiques que comencen a combinar programari de propietat amb programari lliure, o a utilitzar programari lliure exclusivament, com els casos del Brasil o Extremadura, seran cada cop més freqüents.
-El model de producció del programari lliure ha demostrat tenir un èxit considerable i ser altament productiu en el desenvolupament de programes tan complexos com el sistema operatiu Linux o el servidor Apache.
-Veurem com aquest model de producció cooperatiu s'estén a altres àrees del coneixement, com ja es pot veure actualment en projectes com ara la Wikipèdia o l'Open Directory.
-Amb la millora a l'accés a la Xarxa i la connexions de banda ampla, el nombre d'usuaris connectats a la Xarxa augmentarà, i també ho farà la seva agilitat en l'ús de la mateixa.
-Hi ha una correlació directa entre el nombre d'usuaris que té una aplicació lliure i la comunitat que li dóna suport.
-Com més gent utilitzi el programa, més gent n'informarà dels errors i hi farà suggeriments, i noves institucions, empreses, i voluntaris se sumaran als esforços ja existents.
-El precedent creat per SCO, que a començaments de 2003 va començar a demandar a empreses usuàries de Linux, IBM entre elles, per una suposada violació de la propietat intel·lectual, ha mostrat la necessitat de protecció legal per a desenvolupadors, usuaris i projectes de possibles reclamacions legals infundades.
-A mesura que el programari lliure guanyi en adopció, i més empreses hi facin negoci, augmentarà el risc que apareguin fabricants de programari de propietat que vagin a judici per reclamar possibles violacions de drets d'autor o patents.
 El programari lliure és tècnicament viable, econòmicament sostenible i socialment just.
+El programari lliure és, probablement, l'única opció que tindran molts països en vies de desenvolupament per sumar-se a les noves tecnologies.
+El programari lliure, en donar accés al seu codi, és l'únic que pot garantir aquesta transparència.
+El programari lliure, en tenir un codi accessible, millora diversos aspectes relacionats amb la perennitat de les dades i llur seguretat.
+El programari és fruit de l'esforç, valor intel·lectual i inversió de l'autor i en representa la creativitat.
+El programari és un programa o un conjunt de programes informàtics que fan una tasca determinada.
+El secret comercial és una altra forma de protecció legal que s'utilitza habitualment en la indústria per protegir el programari.
+El servidor del projecte fou acollit en una universitat, i avui dia un grup de voluntaris en continua el desenvolupament.
+El sistema operatiu és el programa que interacciona entre el maquinari, l'usuari i les aplicacions.
+Els costos fixos que tenen, principalment el desenvolupament de noves versions del producte, no augmenten pel fet de per vendre'n més unitats.
+Els drets d'autor són l'eina jurídica bàsica utilitzada per a la protecció dels programes informàtics i les creacions intel·lectuals.
+Els drets del programa s'han d'aplicar a tothom a qui es redistribueixi el programa i sense cap condició addicional.
+Els models de negoci, amb algun petit matís, són els mateixos que s'han usat tradicionalment en la indústria del programari.
+Els principals projectes lliures, com ara l'OpenOffice.
+Els programes tenen errors.
+Els projectes lliures tendeixen a crear documentació amb manuals d'ús i instal·lació o recopilatoris de preguntes i respostes més freqüents.
+Els usuaris poden descarregar el programari, utilitzar-lo lliurement i modificar-lo, integrar i distribuir aquestes millores.
+Empreses de serveis informàtics.
+Empreses i administracions comencen a invertir en solucions basades en programari lliure, més personalitzat i més adaptat a les seves necessitats.
+Empreses que es dediquen a la consultoria, desenvolupament de solucions personalitzades, formació i suport tècnic.
+Empreses que venen el programari com a producte.
+En aquells temps, els sistemes informàtics eren en mode de text i les interfícies gràfiques encara no existien.
+En aquest sentit, el codi font juga un paper fonamental en la manera en què entenem les llibertats del programari.
+En aquesta anàlisi queden reflectits el cost del programa, l'ajuda i el manteniment tecnològic de la solució.
+En el fons, es tracta més d'una operació de màrqueting que d'una acció que busqui afegir transparència a l'explotació de les solucions Microsoft.
+En el món del programari de propietat, cada traducció i recurs lingüístic creat està lligat al fabricant i a les seves restriccions d'ús.
+En el món del programari de propietat, el desenvolupador de l'aplicació és l'únic que pot oferir tots els serveis.
+En el món del programari lliure existeix també una gran diversitat de llicències.
+En el món del programari lliure, aquestes llengües, i moltes d'altres, gaudeixen d'una bona salut.
+En els projectes petits hi ha un únic responsable de projecte.
+En totes les indústries hi ha factors disruptius que ocasionen que alguns fabricants surtin del mercat i que n'apareguin nous.
+Encara eren molt cars, i es destinaven bàsicament a usos científics.
+Enumerarem a continuació els principals models de negoci que s'han aplicat amb èxit al programari lliure durant els últims anys.
+Era un moment complicat.
+Es discuteix, però, si aquestes proteccions s'apliquen al programari lliure, entre altres motius pel seu caràcter gairebé de donatiu.
+Es tracta d'un cost gens menyspreable, si tenim en compte que en més de seixanta.
+Es tracta, habitualment, d'empreses que han impulsat projectes de programari lliure i en són titulars dels drets d'autor.
+Es van marcar com a objectiu aconseguir que Linux fos tan senzill d'utilitzar com ho eren els sistemes Mac.
+Finalment, algunes aplicacions es van corregir i d'altres ja funcionaven correctament.
+Finalment, l'abril d'aquell mateix any, el CERN accedí a permetre que qualsevol persona pogués utilitzar lliurement el seu programari i protocols.
+Fins llavors, es considerava que el programari no es podia patentar.
+Freqüentment, els seus èxits o fracassos s'han interpretat com la viabilitat global econòmica del programari lliure.
+Google, per exemple, usa el secret comercial per no revelar com funcionen els seus algoritmes de recerca, classificació i puntuació de les pàgines.
+Gràcies a això, aquest sistema operatiu es va començar a estendre progressivament.
+Gràcies a la disponibilitat del codi font, el programari lliure garanteix una independència respecte al proveïdor.
+Han estat nombrosos els casos d'empreses i usuaris que han estat demandats per intercanvi il·legal de fitxers.
+Hem vist com el programari lliure ja ha canviat la forma d'entendre la indústria de la programació.
+Hi ha qui creu, erròniament, que la venda de llicències és una font extraordinària d'ingressos per a qualsevol empresa.
+Hi ha una correlació directa entre el nombre d'usuaris que té una aplicació lliure i la comunitat que li dóna suport.
+IBM ha demostrat que està al costat del programari lliure en defensar Linux davant els tribunals.
+Integritat del codi font original.
+Internet ha creat els seus propis mecanismes per evitar aquesta mena de situacions.
+L'administració ha de donar un servei universal i, per tant, respectar i impulsar els estàndards oberts en adreçar-se als seus ciutadans.
+L'any mil nou-cents noranta-vui va ser un any especialment important per al programari lliure.
+L'aposta principal d'IBM, però, ha estat amb Linux.
+L'empresa fou fundada l'any dos mil per dos suïssos i un finlandès, i ha estat rendible des de bon començament.
+L'empresa va gastar aproximadament tretze milions de dòlars i va arribar a tenir setanta empleats en plantilla.
+L'estalvi que representa el programari lliure és atractiu per a les administracions, ja que els permet una millor administració dels seus recursos.
+L'exemple més clar que això no està passant en el món del programari lliure és la total compatibilitat entre les diferents distribucions de Linux.
+L'Internet Explorer és, doncs, un programa de propietat pel que fa a les llibertats, i gratuït pel que fa al cost.
+L'octubre de dos mil u va obtenir finançament d'un fons de capital risc, que ha utilitzat per créixer ordenadament.
+La creació de programari és un procés econòmicament molt costós però, un cop amortitzat, el cost de còpia és molt baix.
+La llicència ha de ser tecnològicament neutra.
+La llicència lliure d'ús no inclou l'ús de la marca.
+La llicència no ha de posar restriccions en altres programes que es distribueixin juntament amb el programari llicenciat.
+La llicència no ha de restringir un altre programari.
+La llicència no ha de ser específica d'un producte.
+La majoria d'usuaris i distribucions comercials, però, segueixen parlant de Linux per referir-se tant al sistema com al nucli.
+La publicació del codi font i la creació de Mozilla.
+La qualitat del programari és una preocupació i es dediquen molts esforços a millorar-la, però el programari gairebé mai no és perfecte.
+La reacció immediata de les discogràfiques i d'alguns grups musicals fou perseguir legalment el fenomen de la forma més contundent possible.
+La realitat és ben diferent, ja que hi ha tasques molt definides amb els seus respectius responsables.
+La validesa legal d'aquests dos processos encara es discuteix avui en dia.
+La web ha tingut un paper central en el creixement d'Internet i, conseqüentment, en la difusió del programari lliure.
+Les condicions d'ús del programa no poden ser discriminatòries envers una persona o un grup de persones.
+Les marques poden usar-se en el món del programari lliure per protegir un servei o producte i fins i tot un grup de desenvolupament.
+Les marques solen justificar-se perquè un client pugui identificar, de forma clara, que un producte o servei prové d'un fabricant determinat.
+Les motivacions dels programadors de programari lliure són molt diverses.
+Les patents són la concessió d'un monopoli sobre una invenció durant un període limitat de vint anys, després del qual tothom en pot fer ús.
+Les tres comunitats amb una concentració més alta d'empreses de programari lliure eren Madrid, amb seixanta-vuit, Catalunya, amb quaranta-sis, i Andalusia, amb quaranta.
+Llavors, aquesta biblioteca era gratuïta per a l'ús no comercial, però no era programari lliure.
+Llibertat per fer modificacions i distribuir les millores; inclou també l'accés al seu codi font.
+Llibertat per poder estudiar com funciona el programa; inclou l'accés al seu codi font.
+Llibertat per poder utilitzar el programa amb qualsevol finalitat.
+Llibertat per redistribuir el programa.
+Llicències de codi obert o permissives.
+Mentrestant, l'Internet Explorer anava guanyant quota de mercat i s'anava consolidant com el navegador més popular a Internet.
+Mercès al desplegament d'una solució basada en programari lliure, la Junta d'Extremadura calcula que ha aconseguit un estalvi directe de quaranta-vuit.
+Microsoft i altres fabricants de la indústria han utilitzat àmpliament aquestes tècniques.
+Moltes empreses i particulars aprofiten aquesta llibertat per fer-hi negocis, tant venent-lo com oferint serveis de formació i consultoria.
+Molts van pensar que, pel fet de tractar-se d'un espai que abastava més enllà de fronteres de països, quedaria fora de tota regulació.
+Mozilla no tenia una tasca gens fàcil al davant a causa dels problemes amb les llicències amb codi de tercers.
+Net en entorn Windows, facilitant la migració d'aplicacions a Linux i augmentant la seva base de desenvolupadors i usuaris.
+No discriminació contra persones o grups.
+No discriminació contra usos.
+No es pot negar a ningú fer ús del programa amb una finalitat determinada, com per exemple comercial o militar.
+No hi ha cap empresa que desitgi violar la propietat intel·lectual d'una altra empresa.
+No m'agradaria acabar sense fer una petita conclusió sobre el programari lliure, el seu impacte en el nostre entorn, i el seu futur més immediat.
+No obstant això, hi ha aspectes que no estan regulats per la llei, i no per això són menys preocupants.
+No obstant això, l'aventura va durar sis mesos.
+No obstant això, les facilitats de la tecnologia contrasten amb la rigidesa del sistema jurídic.
+No obstant això, mai no va arribar a acumular prou usuaris per fer que l'empresa fos mínimament rendible.
+No obstant això, són relativament poques les empreses que poden seguir aquest model, ja que els mercats horitzontals són certament limitats.
+Obres derivades.
+Part d'un projecte empresarial o universitari.
+Per a ells és fonamental garantir a tothom l'accés a la informació i als recursos informàtics.
+Per a l'usuari final, després del sistema operatiu, el paquet ofimàtic és el conjunt de programes més utilitzats.
+Per al personal docent i investigador s'ha establert un projecte de migració voluntari.
+Per als hackers, els reptes intel·lectuals són importants, com també ho és poder compartir els seus resultats amb la resta de la comunitat.
+Per entendre la importància del programari podríem posar diversos exemples.
+Però el secret va en contra de l'esperit de compartició d'informació que impera en el programari lliure, i és incompatible amb l'obertura del codi.
+Podem afirmar que pràcticament cap mena de programari, sigui lliure o de propietat, inclou garantia.
+Proporciona serveis de formació per a usuaris, administradors de sistemes i desenvolupadors.
+Protegim així la inversió realitzada per crear i donar a conèixer el nostre producte.
+Qualsevol empresa o professional, amb els coneixements adequats, pot seguir oferint desenvolupament o serveis per a la nostra aplicació.
+Qualsevol empresa té les mateixes oportunitats de competir que qualsevol altra persona o empresa de la resta del món.
+Qualsevol usuari sap, per experiència pròpia, que els programes no són perfectes.
+Quant a llur ubicació geogràfica, el quaranta-vuit per cent vivien als Estats Units i el quaranta dos coma dos per cent a Europa.
+Quant al cost, qualsevol programari lliure es pot vendre, sempre que es respectin les llibertats originals que el defineixen.
+Que el resultat sigui lliure no significa que no hi hagi una remuneració per la feina.
+Què passa amb els usuaris d'altres navegadors?
+Resoldre un problema propi.
+S'estan usant extensament per donar a conèixer el Linux als usuaris neòfits, i es poden aconseguir a través de revistes d'informàtica.
 Se'ns ofereix un món ple de possibilitats; aprofitar-lo depèn de nosaltres.
+Sense accés al codi font és impossible saber què fa una aplicació amb aquestes dades, i com les tracta.
+Sense accés al codi solament podem utilitzar el programa; no podem veure com està fet ni introduir-hi millores.
+Sense l'existència del programari lliure, avui en dia probablement Internet no existiria.
+Sense un sistema operatiu, un ordinador no és més que un batibull de cables i metall.
+Ser un especialista en una àrea i ser reconegut com a expert en ella és una bona estratègia.
+Si la situació de recessió és prolongada, els serveis solen ser l'única forma d'ingressos.
+Sol haver-hi un cert tabú quan es parla de les experiències fallides en el món del programari lliure.
+Són empreses que centren el seu negoci en la venda de maquinari i per a les quals el programari n'és un complement necessari.
+També garanteix que qualsevol usuari o empresa de programari pugui distribuir-lo.
+També s'està utilitzant per poder executar en Linux serveis web dissenyats en ASP.
+Totes aquestes eines, juntament amb el talent dels membres dels diferents projectes, és el que fa possible la producció de programari lliure.
+Totes aquestes funcions són indispensables durant la vida del projecte.
+Totes dues empreses van portar Microsoft a judici.
+Totes elles estan pensades per a l'usuari final i són àmpliament utilitzades.
+Tots ells es migraran a Linux i OpenOffice.
+Tots ells són casos d'èxit, però són gairebé impossibles de documentar.
+Tots els nous projectes que s'hi abordin s'han de desplegar i implementar, si és tècnicament viable, utilitzant exclusivament programari lliure.
+Tots els projectes de programari lliure tenen un web que serveix de punt d'inici i trobada dels recursos que usuaris i desenvolupadors necessiten.
+Un aspecte central en qualsevol projecte de programari és la gestió i el seguiment dels errors.
+Un dels grans problemes en la indústria del programari és la dependència que es crea entre el fabricant i el client.
+Una altra tendència de Microsoft és utilitzar el sistema operatiu com a plataforma per integrar-hi aplicacions i imposar la seva tecnologia.
+Una gran part de la indústria del programari està basada en el desenvolupament de projectes on cal un programari personalitzat.
+Va experimentar un creixement molt fort durant l'any dos mil u, durant el qual va arribar a tenir mig centenar d'empleats.
+Venda de programari.
+Venedors de maquinari.
+Veure Microsoft amb recel és una tendència general de la indústria informàtica.
+És a dir, que, encara que com a professionals en tinguem el remei, ens veiem impossibilitats per aplicar-lo.
+És habitual que els usuaris confonguin el programari lliure amb el programari gratuït.
+És habitual que les empreses de serveis hagin de desenvolupar solucions a mida.
+És important distingir entre les llibertats que ens proporciona un programari i el seu cost.
+És imprescindible anar amb compte amb aquesta mena d'anàlisis i cercar altres fonts que ens puguin ajudar a contrastar la informació facilitada.
+És indiscutible la importància que el programari lliure ha tingut en l'extensió i el desenvolupament d'Internet des de bon començament.
+És una llicència que cobreix molt detalladament els diferents aspectes del programari.
